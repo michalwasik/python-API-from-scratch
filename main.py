@@ -2,6 +2,8 @@ import socket
 import os
 import mimetypes
 import json
+from datetime import datetime
+
 
 class TCPServer:
     def __init__(self, host='127.0.0.1', port=8887):
@@ -41,7 +43,8 @@ class HttpRequest:
         lines = bytes.decode(data).split('\r\n')
         request_line = lines[0]
         self.parse_request_line(request_line)
-        values = lines[-1]
+        if self.metod == 'POST':
+            self.data = json.loads(lines[-1])
 
     def parse_request_line(self, request_line):
         words = request_line.split(' ')
@@ -82,20 +85,18 @@ class HTTPServer(TCPServer):
             headers += "%s: %s\r\n" % (h, self.headers[h])
         return headers
 
-    def handle_request(self, data):
-        request = HttpRequest(data)
+    def handle_request(self, request):
+        request = HttpRequest(request)
         handler = getattr(self, 'handle_%s' % request.metod)
         response = handler(request)
         return response
 
-    def handle_GET(self, data):
+    def handle_GET(self, request):
         def return_names(x):
             with open(x, "r") as jsonFile:
                 data_json = json.load(jsonFile)
-            track_names = []
-            for i in data_json:
-                track_names.append(i['name'])
-            return str(track_names)
+
+            return str(data_json)
 
 
         response_line = self.response_line(status_code=200)
@@ -114,7 +115,24 @@ class HTTPServer(TCPServer):
         response_as_bytes = str.encode(response)
         return response_as_bytes
 
-    def handle_POST(self, data):
+    def handle_POST(self, request):
+        dict = request.data
+        track_name = dict.get('name')
+        driver = dict.get('driver')
+        car = dict.get('car')
+        lap_time = dict.get('time')
+        if isinstance(track_name, str) and isinstance(driver, str) and isinstance(car, str) and isinstance(lap_time, (float, int)):
+            with open("track.json", "r") as jsonFile:
+                data_json = json.load(jsonFile)
+            for i in data_json:
+                if i['name'] == track_name:
+                    del dict['name']
+                    i['data'].append(dict)
+                    break
+            with open("track.json", "w") as jsonFile:
+                json.dump(data_json, jsonFile)
+        else:
+            pass
 
 if __name__ == '__main__':
     server = HTTPServer()
