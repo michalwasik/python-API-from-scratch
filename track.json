@@ -1,1 +1,2302 @@
-[{"name": "A1-Ring", "data": []}, {"name": "Abbazia", "data": []}, {"name": "Aberdare Park", "data": []}, {"name": "Ad Diriyah", "data": []}, {"name": "Adelaide", "data": []}, {"name": "Adelaide International Raceway", "data": []}, {"name": "Adria", "data": []}, {"name": "Ahvenisto", "data": []}, {"name": "Aintree", "data": []}, {"name": "Albacete", "data": []}, {"name": "Albert Park, Melbourne", "data": []}, {"name": "Albi", "data": []}, {"name": "Algarve, Portim\u00e3o", "data": []}, {"name": "Almer\u00eda", "data": []}, {"name": "Amaroo Park", "data": []}, {"name": "Andalucia Circuit", "data": []}, {"name": "Anderstorp", "data": []}, {"name": "Anglesey Circuit", "data": []}, {"name": "Arctic Circle Raceway", "data": []}, {"name": "Area 27", "data": []}, {"name": "Arroyo Seco", "data": []}, {"name": "Ascari Race Resort", "data": []}, {"name": "Athens Circuit", "data": []}, {"name": "Atlanta Motor Speedway", "data": []}, {"name": "Atlanta Motorsports Park", "data": []}, {"name": "Atlantic Motorsports Park", "data": []}, {"name": "Atsu Circuit", "data": []}, {"name": "Audru Ring", "data": []}, {"name": "Augusta International Raceway", "data": []}, {"name": "Auto Club Speedway, Fontana", "data": []}, {"name": "Auto24Ring", "data": []}, {"name": "Aut\u00f3dromo de Rivera", "data": []}, {"name": "Autodromo de Tocancip\u00e1", "data": []}, {"name": "Autodr\u00f3mo Internacional de Guadalajara", "data": []}, {"name": "Autodromo Jos\u00e9 Carlos Bassi", "data": []}, {"name": "Aut\u00f3dromo Ricardo Mej\u00eda", "data": []}, {"name": "Aut\u00f3dromo Roberto Mouras", "data": []}, {"name": "Aut\u00f3dromo San Nicol\u00e1s Ciudad", "data": []}, {"name": "Aut\u00f3dromo Sergio Wagner Rosa", "data": []}, {"name": "Aut\u00f3dromo Vegas de Quilaco", "data": []}, {"name": "Autodromo Yucat\u00e1n", "data": []}, {"name": "Autopolis", "data": []}, {"name": "AVUS", "data": []}, {"name": "Bahrain International Circuit", "data": []}, {"name": "Baku", "data": []}, {"name": "Bangsaen", "data": []}, {"name": "Barbagallo Raceway Wanneroo", "data": []}, {"name": "Barber Motorsports Park", "data": []}, {"name": "Batangas", "data": []}, {"name": "Bathurst Mount Panorama", "data": []}, {"name": "Battersea Park", "data": []}, {"name": "Beijing Olympic Park", "data": []}, {"name": "Bellah\u00f8j Park", "data": []}, {"name": "Benguela", "data": []}, {"name": "Berlin Alexanderplatz", "data": []}, {"name": "Berlin-Tempelhof", "data": []}, {"name": "Bern", "data": []}, {"name": "Bi\u0137ernieki", "data": []}, {"name": "Billown Circuit", "data": []}, {"name": "Bilster Berg", "data": []}, {"name": "Binetto", "data": []}, {"name": "Bira Circuit", "data": []}, {"name": "Birmingham", "data": []}, {"name": "Bishopscourt", "data": []}, {"name": "Blackhawk Farms", "data": []}, {"name": "Boston", "data": []}, {"name": "Botniaring", "data": []}, {"name": "Braga", "data": []}, {"name": "Brainerd", "data": []}, {"name": "Brands Hatch", "data": []}, {"name": "Bras\u00edlia", "data": []}, {"name": "Bristol Motor Speedway", "data": []}, {"name": "Brno", "data": []}, {"name": "Brooklands", "data": []}, {"name": "Brooklyn", "data": []}, {"name": "Brussels", "data": []}, {"name": "Buddh International Circuit", "data": []}, {"name": "Buenos Aires", "data": []}, {"name": "Buenos Aires, Puerto Madero", "data": []}, {"name": "Bugatti Circuit", "data": []}, {"name": "Bulawayo", "data": []}, {"name": "Buriram United International Circuit", "data": []}, {"name": "Bushy Park", "data": []}, {"name": "Cadwell Park", "data": []}, {"name": "Cajititl\u00e1n", "data": []}, {"name": "Calabogie Motorsports Park", "data": []}, {"name": "Calafat", "data": []}, {"name": "Calder Park", "data": []}, {"name": "California Speedway", "data": []}, {"name": "Campo Grande", "data": []}, {"name": "Carolina Motorsports Park", "data": []}, {"name": "Cascavel", "data": []}, {"name": "Castle Combe", "data": []}, {"name": "Catalina Park", "data": []}, {"name": "Cemetery Circuit", "data": []}, {"name": "Chang International Circuit", "data": []}, {"name": "Charade", "data": []}, {"name": "Charlotte Motor Speedway", "data": []}, {"name": "Charterhall", "data": []}, {"name": "Chayka", "data": []}, {"name": "Chengdu", "data": []}, {"name": "Chicagoland Speedway", "data": []}, {"name": "Chimay", "data": []}, {"name": "Circuit 9", "data": []}, {"name": "Circuit de Catalunya", "data": []}, {"name": "Circuit Gilles Villenueve", "data": []}, {"name": "Circuit of the Americas", "data": []}, {"name": "Circuit of Wales", "data": []}, {"name": "Circuito dos Cristais", "data": []}, {"name": "Clermont-Ferrand", "data": []}, {"name": "Codegua", "data": []}, {"name": "Coleraine", "data": []}, {"name": "Comodoro Rivadavia", "data": []}, {"name": "Continental Divide", "data": []}, {"name": "Croft", "data": []}, {"name": "Croix-en-Ternois", "data": []}, {"name": "Curitiba", "data": []}, {"name": "Dakar-Baobabs", "data": []}, {"name": "Darlington Raceway", "data": []}, {"name": "Daytona", "data": []}, {"name": "Detroit Belle Isle", "data": []}, {"name": "Dijon-Prenois", "data": []}, {"name": "Donington Park", "data": []}, {"name": "Donnybrook Raceway", "data": []}, {"name": "Donnybrooke Speedway", "data": []}, {"name": "Dover International Speedway", "data": []}, {"name": "Dubai Autodrome", "data": []}, {"name": "Dundrod", "data": []}, {"name": "Durban", "data": []}, {"name": "East London", "data": []}, {"name": "Eastern Creek", "data": []}, {"name": "El Pinar", "data": []}, {"name": "El Villicum", "data": []}, {"name": "Enna-Pergusa", "data": []}, {"name": "Estoril", "data": []}, {"name": "EuroSpeedway Lausitz", "data": []}, {"name": "Everland Speedway", "data": []}, {"name": "Falkenberg", "data": []}, {"name": "Fort Grozny Autodrom", "data": []}, {"name": "Fortaleza", "data": []}, {"name": "Franciacorta", "data": []}, {"name": "Freeport", "data": []}, {"name": "Fuji Speedway", "data": []}, {"name": "Fundidora Park", "data": []}, {"name": "Geller\u00e5son", "data": []}, {"name": "Gimli", "data": []}, {"name": "GingerMan Raceway", "data": []}, {"name": "Goi\u00e2nia", "data": []}, {"name": "Goldenport Motor Park, Beijing", "data": []}, {"name": "Goldfields Raceway", "data": []}, {"name": "Goodwood", "data": []}, {"name": "Grand Prize of America", "data": []}, {"name": "Grenzlandring", "data": []}, {"name": "Guadix", "data": []}, {"name": "Halifax Citadel Hill", "data": []}, {"name": "Hallett", "data": []}, {"name": "H\u00e4meenlinna", "data": []}, {"name": "Hampton Downs", "data": []}, {"name": "Hanoi Street Circuit", "data": []}, {"name": "Heartland Park Topeka", "data": []}, {"name": "Hedemora", "data": []}, {"name": "Hidden Valley Raceway", "data": []}, {"name": "High Plains Raceway", "data": []}, {"name": "Highlands Motorsport Park", "data": []}, {"name": "Hockenheimring", "data": []}, {"name": "Homebush", "data": []}, {"name": "Homestead-Miami Speedway", "data": []}, {"name": "Hong Kong", "data": []}, {"name": "Houston Reliant Park", "data": []}, {"name": "Hungaroring", "data": []}, {"name": "Iberia Circuit", "data": []}, {"name": "Igora Drive", "data": []}, {"name": "Imola", "data": []}, {"name": "Indianapolis Motor Speedway", "data": []}, {"name": "Infineon Raceway", "data": []}, {"name": "Ingliston", "data": []}, {"name": "Inje Speedium", "data": []}, {"name": "Interlagos", "data": []}, {"name": "Interlomas", "data": []}, {"name": "IOM Clypse Course", "data": []}, {"name": "IOM Mountain Course", "data": []}, {"name": "IOM St John's Course", "data": []}, {"name": "Iowa Speedway", "data": []}, {"name": "Irungattukottai", "data": []}, {"name": "ISM Raceway", "data": []}, {"name": "Istanbul Park", "data": []}, {"name": "Jacarepagu\u00e1", "data": []}, {"name": "Jakarta National Monument", "data": []}, {"name": "Jarama", "data": []}, {"name": "Jerez", "data": []}, {"name": "Jiangsu Wantrack International", "data": []}, {"name": "Johor", "data": []}, {"name": "Jun\u00edn", "data": []}, {"name": "Jyllandsringen", "data": []}, {"name": "Kaeng Krachen", "data": []}, {"name": "Kansas Speedway", "data": []}, {"name": "Karlskoga", "data": []}, {"name": "KazanRing", "data": []}, {"name": "Keimola", "data": []}, {"name": "Kemora", "data": []}, {"name": "Kentucky Speedway", "data": []}, {"name": "Kielce", "data": []}, {"name": "Killarney", "data": []}, {"name": "Kinnekulle Ring", "data": []}, {"name": "Knockhill", "data": []}, {"name": "Korea International Circuit", "data": []}, {"name": "Kristianstad", "data": []}, {"name": "Kuala Lumpur", "data": []}, {"name": "Kuwait Motor Town", "data": []}, {"name": "Kyalami", "data": []}, {"name": "KymiRing", "data": []}, {"name": "La Ch\u00e2tre", "data": []}, {"name": "La Chutana", "data": []}, {"name": "La Junta", "data": []}, {"name": "La Plata", "data": []}, {"name": "Laguna Seca", "data": []}, {"name": "Lakeside", "data": []}, {"name": "Langhorne Speedway", "data": []}, {"name": "Las Vegas Motor Speedway", "data": []}, {"name": "Las Vizcachas", "data": []}, {"name": "Lausitzring", "data": []}, {"name": "Le Mans", "data": []}, {"name": "L\u00e9denon", "data": []}, {"name": "Levels Raceway", "data": []}, {"name": "Levin", "data": []}, {"name": "Lihpao International Circuit", "data": []}, {"name": "Lime Rock Park", "data": []}, {"name": "London ExCeL", "data": []}, {"name": "Londrina", "data": []}, {"name": "Long Beach", "data": []}, {"name": "Losail International Circuit", "data": []}, {"name": "Lowe's Motor Speedway", "data": []}, {"name": "Luanda", "data": []}, {"name": "Macau Guia", "data": []}, {"name": "Magione", "data": []}, {"name": "Magny-Cours", "data": []}, {"name": "Maison Blanche Circuit", "data": []}, {"name": "Mallala", "data": []}, {"name": "Mallory Park", "data": []}, {"name": "Mandalika", "data": []}, {"name": "Manfeild", "data": []}, {"name": "Mantorp Park", "data": []}, {"name": "Marrakesh", "data": []}, {"name": "Martinsville Speedway", "data": []}, {"name": "Mas du Clos", "data": []}, {"name": "Mazda Raceway", "data": []}, {"name": "Megara", "data": []}, {"name": "Mettet", "data": []}, {"name": "Mexico City", "data": []}, {"name": "Miami", "data": []}, {"name": "Michigan International Speedway", "data": []}, {"name": "Mid-Ohio", "data": []}, {"name": "Mike Pero Motorsports Park", "data": []}, {"name": "Miller Motorsports Park", "data": []}, {"name": "Milwaukee Mile", "data": []}, {"name": "Mine Circuit", "data": []}, {"name": "Misano", "data": []}, {"name": "Mondello Park", "data": []}, {"name": "Mont-Tremblant", "data": []}, {"name": "Monte Carlo", "data": []}, {"name": "Montreal", "data": []}, {"name": "Montreal ePrix", "data": []}, {"name": "Monza", "data": []}, {"name": "Morgan Park Raceway", "data": []}, {"name": "Moroso Motorsports Park", "data": []}, {"name": "Moscow", "data": []}, {"name": "Moscow Raceway", "data": []}, {"name": "Mosport Park", "data": []}, {"name": "Most", "data": []}, {"name": "Motegi", "data": []}, {"name": "Motorland Arag\u00f3n", "data": []}, {"name": "MotorPark Romania", "data": []}, {"name": "Mugello", "data": []}, {"name": "Nanjing", "data": []}, {"name": "Nassau Arawak Cay", "data": []}, {"name": "Nassau Oakes Field", "data": []}, {"name": "Nassau Windsor Field", "data": []}, {"name": "Navarra", "data": []}, {"name": "NCM Motorsports Park", "data": []}, {"name": "Nelson Ledges", "data": []}, {"name": "Neuqu\u00e9n", "data": []}, {"name": "New Hampshire Motor Speedway", "data": []}, {"name": "New Jersey Motorsports Park", "data": []}, {"name": "Newcastle", "data": []}, {"name": "Niagara Falls", "data": []}, {"name": "Ningbo International Speedway", "data": []}, {"name": "Nishi-Nihon Circuit", "data": []}, {"name": "Nogaro", "data": []}, {"name": "NOLA Motorsports Park", "data": []}, {"name": "Norisring", "data": []}, {"name": "NRing", "data": []}, {"name": "N\u00fcrburgring", "data": []}, {"name": "Okayama", "data": []}, {"name": "Oliver's Mount", "data": []}, {"name": "Oran Park", "data": []}, {"name": "Ordos", "data": []}, {"name": "Oschersleben", "data": []}, {"name": "\u00d6sterrichring", "data": []}, {"name": "Oulton Park", "data": []}, {"name": "Pacific Raceways", "data": []}, {"name": "Palanga", "data": []}, {"name": "Palm Beach International Raceway", "data": []}, {"name": "Palmer Motorsports Park", "data": []}, {"name": "Pannonia Ring", "data": []}, {"name": "Paramount Ranch", "data": []}, {"name": "Parcmotor Castellol\u00ed", "data": []}, {"name": "Paris", "data": []}, {"name": "P\u00e4rnu Ring", "data": []}, {"name": "Parque La Pedrera", "data": []}, {"name": "Pau", "data": []}, {"name": "Paul Ricard", "data": []}, {"name": "Pembrey", "data": []}, {"name": "Penbay", "data": []}, {"name": "Pescara", "data": []}, {"name": "Phakisa Freeway", "data": []}, {"name": "Phillip Island", "data": []}, {"name": "Phoenix International Raceway", "data": []}, {"name": "Phoenix Park", "data": []}, {"name": "Pocono Raceway", "data": []}, {"name": "Portland International Raceway", "data": []}, {"name": "Posadas", "data": []}, {"name": "Potosino", "data": []}, {"name": "Potrero de los Funes", "data": []}, {"name": "Powerbuilt Tools Raceway", "data": []}, {"name": "Pozna\u0144", "data": []}, {"name": "Preluk - Opatija", "data": []}, {"name": "Puebla", "data": []}, {"name": "Pukekohe Park", "data": []}, {"name": "Punta del Este", "data": []}, {"name": "Putnam Park", "data": []}, {"name": "Putrajaya", "data": []}, {"name": "Queensland Raceway", "data": []}, {"name": "Racalmuto", "data": []}, {"name": "Red Bull Ring", "data": []}, {"name": "Red Star Raceway", "data": []}, {"name": "Reem International Circuit", "data": []}, {"name": "Reims", "data": []}, {"name": "Ribeir\u00e3o Preto", "data": []}, {"name": "Richmond", "data": []}, {"name": "Rijeka - Grobnik", "data": []}, {"name": "Ring Knutstorp", "data": []}, {"name": "Riverside", "data": []}, {"name": "Road America", "data": []}, {"name": "Road Atlanta", "data": []}, {"name": "Rockingham", "data": []}, {"name": "Roebling Road", "data": []}, {"name": "Rome", "data": []}, {"name": "Roosevelt Raceway", "data": []}, {"name": "Rosamonte", "data": []}, {"name": "Rosario", "data": []}, {"name": "Ruapuna Park", "data": []}, {"name": "Rudskogen", "data": []}, {"name": "Rustavi", "data": []}, {"name": "Sachsenring", "data": []}, {"name": "Salvador", "data": []}, {"name": "Salzburgring", "data": []}, {"name": "San Carlos", "data": []}, {"name": "San Luis, Rosendo Hern\u00e1ndez", "data": []}, {"name": "San Mart\u00edn, Jorge \u00c1ngel Pena", "data": []}, {"name": "Sanair", "data": []}, {"name": "Sandown Raceway", "data": []}, {"name": "Santa Cruz do Sul", "data": []}, {"name": "Santiago", "data": []}, {"name": "Sanya", "data": []}, {"name": "Sauga Kolmnurk", "data": []}, {"name": "Savannah", "data": []}, {"name": "Sears Point Raceway", "data": []}, {"name": "Seattle International Raceway", "data": []}, {"name": "Sebring", "data": []}, {"name": "Sendai", "data": []}, {"name": "Sentul", "data": []}, {"name": "Seoul Street Circuit", "data": []}, {"name": "Sepang", "data": []}, {"name": "Serres", "data": []}, {"name": "Shanghai International Circuit", "data": []}, {"name": "Shanghai Tianma Circuit", "data": []}, {"name": "Shougang Motorsport Valley", "data": []}, {"name": "Silverstone", "data": []}, {"name": "Singapore Marina Bay", "data": []}, {"name": "Skellefte\u00e5", "data": []}, {"name": "Sk\u00f6vde", "data": []}, {"name": "Slovakiaring", "data": []}, {"name": "Smolensk Ring", "data": []}, {"name": "Snetterton", "data": []}, {"name": "Sochi", "data": []}, {"name": "Sokol", "data": []}, {"name": "Solvalla", "data": []}, {"name": "Sonoma Raceway", "data": []}, {"name": "Spa-Francorchamps", "data": []}, {"name": "St. Jovite", "data": []}, {"name": "St. Petersburg", "data": []}, {"name": "Sturup", "data": []}, {"name": "Subic Bay", "data": []}, {"name": "Sugo", "data": []}, {"name": "Summit Point", "data": []}, {"name": "Surfers Paradise", "data": []}, {"name": "Suzuka", "data": []}, {"name": "Sydney Motorsport Park", "data": []}, {"name": "Sydney Olympic Park", "data": []}, {"name": "Symmons Plains", "data": []}, {"name": "Tacna", "data": []}, {"name": "Taebaek Racing Park", "data": []}, {"name": "Talladega Superspeedway", "data": []}, {"name": "Tarum\u00e3", "data": []}, {"name": "Taupo", "data": []}, {"name": "Teretonga Park", "data": []}, {"name": "Termas de R\u00edo Hondo", "data": []}, {"name": "Texas Motor Speedway", "data": []}, {"name": "Texas World Speedway", "data": []}, {"name": "The Bend Motorsport Park", "data": []}, {"name": "Thruxton", "data": []}, {"name": "Thunderhill Raceway Park", "data": []}, {"name": "TI Aida", "data": []}, {"name": "Tierp Arena", "data": []}, {"name": "Timaru", "data": []}, {"name": "Tokachi Speedway", "data": []}, {"name": "Toronto, Exhibition Place", "data": []}, {"name": "Townsville", "data": []}, {"name": "Trac M\u00f4n", "data": []}, {"name": "Transilvania Motor Ring", "data": []}, {"name": "Trenton Speedway", "data": []}, {"name": "Tri\u00f3valo Bernardo Obreg\u00f3n", "data": []}, {"name": "Trois-Rivi\u00e8res", "data": []}, {"name": "Tsukuba", "data": []}, {"name": "TT Circuit Assen", "data": []}, {"name": "Twin-Ring Motegi", "data": []}, {"name": "T\u0177 Croes", "data": []}, {"name": "Utah Motorsports Campus", "data": []}, {"name": "V1 Auto World Tianjin", "data": []}, {"name": "Val de Vienne", "data": []}, {"name": "Valencia (Cheste/Ricardo Tormo)", "data": []}, {"name": "Val\u00e8ncia Street Circuit", "data": []}, {"name": "V\u00e5lerbanen", "data": []}, {"name": "Vallelunga", "data": []}, {"name": "Varano", "data": []}, {"name": "Velo Citt\u00e0", "data": []}, {"name": "Velopark", "data": []}, {"name": "Vila Real", "data": []}, {"name": "Virgina International Raceway", "data": []}, {"name": "Wakefield Park", "data": []}, {"name": "Walt Disney World Speedway", "data": []}, {"name": "Wanganui", "data": []}, {"name": "Watkins Glen", "data": []}, {"name": "West Delta Park Raceway", "data": []}, {"name": "Westwood", "data": []}, {"name": "Willow Springs", "data": []}, {"name": "Winfield", "data": []}, {"name": "Winton", "data": []}, {"name": "World Wide Technology Raceway at Gateway", "data": []}, {"name": "Wuhan", "data": []}, {"name": "Yahuarcocha", "data": []}, {"name": "Yancheng", "data": []}, {"name": "Yas Marina", "data": []}, {"name": "Zalu\u017eani", "data": []}, {"name": "Zandvoort", "data": []}, {"name": "Zhejiang Circuit", "data": []}, {"name": "Zhuhai", "data": []}, {"name": "Zolder", "data": []}, {"name": "Z\u00fcrich", "data": []}, {"name": "Zwartkops", "data": []}]
+[
+    {
+        "name": "A1-Ring",
+        "slug_name": "A1-Ring",
+        "data": []
+    },
+    {
+        "name": "Abbazia",
+        "slug_name": "Abbazia",
+        "data": []
+    },
+    {
+        "name": "Aberdare Park",
+        "slug_name": "Aberdare Park",
+        "data": []
+    },
+    {
+        "name": "Ad Diriyah",
+        "slug_name": "Ad Diriyah",
+        "data": []
+    },
+    {
+        "name": "Adelaide",
+        "slug_name": "Adelaide",
+        "data": []
+    },
+    {
+        "name": "Adelaide International Raceway",
+        "slug_name": "Adelaide International Raceway",
+        "data": []
+    },
+    {
+        "name": "Adria",
+        "slug_name": "Adria",
+        "data": []
+    },
+    {
+        "name": "Ahvenisto",
+        "slug_name": "Ahvenisto",
+        "data": []
+    },
+    {
+        "name": "Aintree",
+        "slug_name": "Aintree",
+        "data": []
+    },
+    {
+        "name": "Albacete",
+        "slug_name": "Albacete",
+        "data": []
+    },
+    {
+        "name": "Albert Park, Melbourne",
+        "slug_name": "Albert Park, Melbourne",
+        "data": []
+    },
+    {
+        "name": "Albi",
+        "slug_name": "Albi",
+        "data": []
+    },
+    {
+        "name": "Algarve, Portim\u00e3o",
+        "slug_name": "Algarve, Portimo",
+        "data": []
+    },
+    {
+        "name": "Almer\u00eda",
+        "slug_name": "Almera",
+        "data": []
+    },
+    {
+        "name": "Amaroo Park",
+        "slug_name": "Amaroo Park",
+        "data": []
+    },
+    {
+        "name": "Andalucia Circuit",
+        "slug_name": "Andalucia Circuit",
+        "data": []
+    },
+    {
+        "name": "Anderstorp",
+        "slug_name": "Anderstorp",
+        "data": []
+    },
+    {
+        "name": "Anglesey Circuit",
+        "slug_name": "Anglesey Circuit",
+        "data": []
+    },
+    {
+        "name": "Arctic Circle Raceway",
+        "slug_name": "Arctic Circle Raceway",
+        "data": []
+    },
+    {
+        "name": "Area 27",
+        "slug_name": "Area 27",
+        "data": []
+    },
+    {
+        "name": "Arroyo Seco",
+        "slug_name": "Arroyo Seco",
+        "data": []
+    },
+    {
+        "name": "Ascari Race Resort",
+        "slug_name": "Ascari Race Resort",
+        "data": []
+    },
+    {
+        "name": "Athens Circuit",
+        "slug_name": "Athens Circuit",
+        "data": []
+    },
+    {
+        "name": "Atlanta Motor Speedway",
+        "slug_name": "Atlanta Motor Speedway",
+        "data": []
+    },
+    {
+        "name": "Atlanta Motorsports Park",
+        "slug_name": "Atlanta Motorsports Park",
+        "data": []
+    },
+    {
+        "name": "Atlantic Motorsports Park",
+        "slug_name": "Atlantic Motorsports Park",
+        "data": []
+    },
+    {
+        "name": "Atsu Circuit",
+        "slug_name": "Atsu Circuit",
+        "data": []
+    },
+    {
+        "name": "Audru Ring",
+        "slug_name": "Audru Ring",
+        "data": []
+    },
+    {
+        "name": "Augusta International Raceway",
+        "slug_name": "Augusta International Raceway",
+        "data": []
+    },
+    {
+        "name": "Auto Club Speedway, Fontana",
+        "slug_name": "Auto Club Speedway, Fontana",
+        "data": []
+    },
+    {
+        "name": "Auto24Ring",
+        "slug_name": "Auto24Ring",
+        "data": []
+    },
+    {
+        "name": "Aut\u00f3dromo de Rivera",
+        "slug_name": "Autdromo de Rivera",
+        "data": []
+    },
+    {
+        "name": "Autodromo de Tocancip\u00e1",
+        "slug_name": "Autodromo de Tocancip",
+        "data": []
+    },
+    {
+        "name": "Autodr\u00f3mo Internacional de Guadalajara",
+        "slug_name": "Autodrmo Internacional de Guadalajara",
+        "data": []
+    },
+    {
+        "name": "Autodromo Jos\u00e9 Carlos Bassi",
+        "slug_name": "Autodromo Jos Carlos Bassi",
+        "data": []
+    },
+    {
+        "name": "Aut\u00f3dromo Ricardo Mej\u00eda",
+        "slug_name": "Autdromo Ricardo Meja",
+        "data": []
+    },
+    {
+        "name": "Aut\u00f3dromo Roberto Mouras",
+        "slug_name": "Autdromo Roberto Mouras",
+        "data": []
+    },
+    {
+        "name": "Aut\u00f3dromo San Nicol\u00e1s Ciudad",
+        "slug_name": "Autdromo San Nicols Ciudad",
+        "data": []
+    },
+    {
+        "name": "Aut\u00f3dromo Sergio Wagner Rosa",
+        "slug_name": "Autdromo Sergio Wagner Rosa",
+        "data": []
+    },
+    {
+        "name": "Aut\u00f3dromo Vegas de Quilaco",
+        "slug_name": "Autdromo Vegas de Quilaco",
+        "data": []
+    },
+    {
+        "name": "Autodromo Yucat\u00e1n",
+        "slug_name": "Autodromo Yucatn",
+        "data": []
+    },
+    {
+        "name": "Autopolis",
+        "slug_name": "Autopolis",
+        "data": []
+    },
+    {
+        "name": "AVUS",
+        "slug_name": "AVUS",
+        "data": []
+    },
+    {
+        "name": "Bahrain International Circuit",
+        "slug_name": "Bahrain International Circuit",
+        "data": []
+    },
+    {
+        "name": "Baku",
+        "slug_name": "Baku",
+        "data": []
+    },
+    {
+        "name": "Bangsaen",
+        "slug_name": "Bangsaen",
+        "data": []
+    },
+    {
+        "name": "Barbagallo Raceway Wanneroo",
+        "slug_name": "Barbagallo Raceway Wanneroo",
+        "data": []
+    },
+    {
+        "name": "Barber Motorsports Park",
+        "slug_name": "Barber Motorsports Park",
+        "data": []
+    },
+    {
+        "name": "Batangas",
+        "slug_name": "Batangas",
+        "data": []
+    },
+    {
+        "name": "Bathurst Mount Panorama",
+        "slug_name": "Bathurst Mount Panorama",
+        "data": []
+    },
+    {
+        "name": "Battersea Park",
+        "slug_name": "Battersea Park",
+        "data": []
+    },
+    {
+        "name": "Beijing Olympic Park",
+        "slug_name": "Beijing Olympic Park",
+        "data": []
+    },
+    {
+        "name": "Bellah\u00f8j Park",
+        "slug_name": "Bellahj Park",
+        "data": []
+    },
+    {
+        "name": "Benguela",
+        "slug_name": "Benguela",
+        "data": []
+    },
+    {
+        "name": "Berlin Alexanderplatz",
+        "slug_name": "Berlin Alexanderplatz",
+        "data": []
+    },
+    {
+        "name": "Berlin-Tempelhof",
+        "slug_name": "Berlin-Tempelhof",
+        "data": []
+    },
+    {
+        "name": "Bern",
+        "slug_name": "Bern",
+        "data": []
+    },
+    {
+        "name": "Bi\u0137ernieki",
+        "slug_name": "Biernieki",
+        "data": []
+    },
+    {
+        "name": "Billown Circuit",
+        "slug_name": "Billown Circuit",
+        "data": []
+    },
+    {
+        "name": "Bilster Berg",
+        "slug_name": "Bilster Berg",
+        "data": []
+    },
+    {
+        "name": "Binetto",
+        "slug_name": "Binetto",
+        "data": []
+    },
+    {
+        "name": "Bira Circuit",
+        "slug_name": "Bira Circuit",
+        "data": []
+    },
+    {
+        "name": "Birmingham",
+        "slug_name": "Birmingham",
+        "data": []
+    },
+    {
+        "name": "Bishopscourt",
+        "slug_name": "Bishopscourt",
+        "data": []
+    },
+    {
+        "name": "Blackhawk Farms",
+        "slug_name": "Blackhawk Farms",
+        "data": []
+    },
+    {
+        "name": "Boston",
+        "slug_name": "Boston",
+        "data": []
+    },
+    {
+        "name": "Botniaring",
+        "slug_name": "Botniaring",
+        "data": []
+    },
+    {
+        "name": "Braga",
+        "slug_name": "Braga",
+        "data": []
+    },
+    {
+        "name": "Brainerd",
+        "slug_name": "Brainerd",
+        "data": []
+    },
+    {
+        "name": "Brands Hatch",
+        "slug_name": "Brands Hatch",
+        "data": []
+    },
+    {
+        "name": "Bras\u00edlia",
+        "slug_name": "Braslia",
+        "data": []
+    },
+    {
+        "name": "Bristol Motor Speedway",
+        "slug_name": "Bristol Motor Speedway",
+        "data": []
+    },
+    {
+        "name": "Brno",
+        "slug_name": "Brno",
+        "data": []
+    },
+    {
+        "name": "Brooklands",
+        "slug_name": "Brooklands",
+        "data": []
+    },
+    {
+        "name": "Brooklyn",
+        "slug_name": "Brooklyn",
+        "data": []
+    },
+    {
+        "name": "Brussels",
+        "slug_name": "Brussels",
+        "data": []
+    },
+    {
+        "name": "Buddh International Circuit",
+        "slug_name": "Buddh International Circuit",
+        "data": []
+    },
+    {
+        "name": "Buenos Aires",
+        "slug_name": "Buenos Aires",
+        "data": []
+    },
+    {
+        "name": "Buenos Aires, Puerto Madero",
+        "slug_name": "Buenos Aires, Puerto Madero",
+        "data": []
+    },
+    {
+        "name": "Bugatti Circuit",
+        "slug_name": "Bugatti Circuit",
+        "data": []
+    },
+    {
+        "name": "Bulawayo",
+        "slug_name": "Bulawayo",
+        "data": []
+    },
+    {
+        "name": "Buriram United International Circuit",
+        "slug_name": "Buriram United International Circuit",
+        "data": []
+    },
+    {
+        "name": "Bushy Park",
+        "slug_name": "Bushy Park",
+        "data": []
+    },
+    {
+        "name": "Cadwell Park",
+        "slug_name": "Cadwell Park",
+        "data": []
+    },
+    {
+        "name": "Cajititl\u00e1n",
+        "slug_name": "Cajititln",
+        "data": []
+    },
+    {
+        "name": "Calabogie Motorsports Park",
+        "slug_name": "Calabogie Motorsports Park",
+        "data": []
+    },
+    {
+        "name": "Calafat",
+        "slug_name": "Calafat",
+        "data": []
+    },
+    {
+        "name": "Calder Park",
+        "slug_name": "Calder Park",
+        "data": []
+    },
+    {
+        "name": "California Speedway",
+        "slug_name": "California Speedway",
+        "data": []
+    },
+    {
+        "name": "Campo Grande",
+        "slug_name": "Campo Grande",
+        "data": []
+    },
+    {
+        "name": "Carolina Motorsports Park",
+        "slug_name": "Carolina Motorsports Park",
+        "data": []
+    },
+    {
+        "name": "Cascavel",
+        "slug_name": "Cascavel",
+        "data": []
+    },
+    {
+        "name": "Castle Combe",
+        "slug_name": "Castle Combe",
+        "data": []
+    },
+    {
+        "name": "Catalina Park",
+        "slug_name": "Catalina Park",
+        "data": []
+    },
+    {
+        "name": "Cemetery Circuit",
+        "slug_name": "Cemetery Circuit",
+        "data": []
+    },
+    {
+        "name": "Chang International Circuit",
+        "slug_name": "Chang International Circuit",
+        "data": []
+    },
+    {
+        "name": "Charade",
+        "slug_name": "Charade",
+        "data": []
+    },
+    {
+        "name": "Charlotte Motor Speedway",
+        "slug_name": "Charlotte Motor Speedway",
+        "data": []
+    },
+    {
+        "name": "Charterhall",
+        "slug_name": "Charterhall",
+        "data": []
+    },
+    {
+        "name": "Chayka",
+        "slug_name": "Chayka",
+        "data": []
+    },
+    {
+        "name": "Chengdu",
+        "slug_name": "Chengdu",
+        "data": []
+    },
+    {
+        "name": "Chicagoland Speedway",
+        "slug_name": "Chicagoland Speedway",
+        "data": []
+    },
+    {
+        "name": "Chimay",
+        "slug_name": "Chimay",
+        "data": []
+    },
+    {
+        "name": "Circuit 9",
+        "slug_name": "Circuit 9",
+        "data": []
+    },
+    {
+        "name": "Circuit de Catalunya",
+        "slug_name": "Circuit de Catalunya",
+        "data": []
+    },
+    {
+        "name": "Circuit Gilles Villenueve",
+        "slug_name": "Circuit Gilles Villenueve",
+        "data": []
+    },
+    {
+        "name": "Circuit of the Americas",
+        "slug_name": "Circuit of the Americas",
+        "data": []
+    },
+    {
+        "name": "Circuit of Wales",
+        "slug_name": "Circuit of Wales",
+        "data": []
+    },
+    {
+        "name": "Circuito dos Cristais",
+        "slug_name": "Circuito dos Cristais",
+        "data": []
+    },
+    {
+        "name": "Clermont-Ferrand",
+        "slug_name": "Clermont-Ferrand",
+        "data": []
+    },
+    {
+        "name": "Codegua",
+        "slug_name": "Codegua",
+        "data": []
+    },
+    {
+        "name": "Coleraine",
+        "slug_name": "Coleraine",
+        "data": []
+    },
+    {
+        "name": "Comodoro Rivadavia",
+        "slug_name": "Comodoro Rivadavia",
+        "data": []
+    },
+    {
+        "name": "Continental Divide",
+        "slug_name": "Continental Divide",
+        "data": []
+    },
+    {
+        "name": "Croft",
+        "slug_name": "Croft",
+        "data": []
+    },
+    {
+        "name": "Croix-en-Ternois",
+        "slug_name": "Croix-en-Ternois",
+        "data": []
+    },
+    {
+        "name": "Curitiba",
+        "slug_name": "Curitiba",
+        "data": []
+    },
+    {
+        "name": "Dakar-Baobabs",
+        "slug_name": "Dakar-Baobabs",
+        "data": []
+    },
+    {
+        "name": "Darlington Raceway",
+        "slug_name": "Darlington Raceway",
+        "data": []
+    },
+    {
+        "name": "Daytona",
+        "slug_name": "Daytona",
+        "data": []
+    },
+    {
+        "name": "Detroit Belle Isle",
+        "slug_name": "Detroit Belle Isle",
+        "data": []
+    },
+    {
+        "name": "Dijon-Prenois",
+        "slug_name": "Dijon-Prenois",
+        "data": []
+    },
+    {
+        "name": "Donington Park",
+        "slug_name": "Donington Park",
+        "data": []
+    },
+    {
+        "name": "Donnybrook Raceway",
+        "slug_name": "Donnybrook Raceway",
+        "data": []
+    },
+    {
+        "name": "Donnybrooke Speedway",
+        "slug_name": "Donnybrooke Speedway",
+        "data": []
+    },
+    {
+        "name": "Dover International Speedway",
+        "slug_name": "Dover International Speedway",
+        "data": []
+    },
+    {
+        "name": "Dubai Autodrome",
+        "slug_name": "Dubai Autodrome",
+        "data": []
+    },
+    {
+        "name": "Dundrod",
+        "slug_name": "Dundrod",
+        "data": []
+    },
+    {
+        "name": "Durban",
+        "slug_name": "Durban",
+        "data": []
+    },
+    {
+        "name": "East London",
+        "slug_name": "East London",
+        "data": []
+    },
+    {
+        "name": "Eastern Creek",
+        "slug_name": "Eastern Creek",
+        "data": []
+    },
+    {
+        "name": "El Pinar",
+        "slug_name": "El Pinar",
+        "data": []
+    },
+    {
+        "name": "El Villicum",
+        "slug_name": "El Villicum",
+        "data": []
+    },
+    {
+        "name": "Enna-Pergusa",
+        "slug_name": "Enna-Pergusa",
+        "data": []
+    },
+    {
+        "name": "Estoril",
+        "slug_name": "Estoril",
+        "data": []
+    },
+    {
+        "name": "EuroSpeedway Lausitz",
+        "slug_name": "EuroSpeedway Lausitz",
+        "data": []
+    },
+    {
+        "name": "Everland Speedway",
+        "slug_name": "Everland Speedway",
+        "data": []
+    },
+    {
+        "name": "Falkenberg",
+        "slug_name": "Falkenberg",
+        "data": []
+    },
+    {
+        "name": "Fort Grozny Autodrom",
+        "slug_name": "Fort Grozny Autodrom",
+        "data": []
+    },
+    {
+        "name": "Fortaleza",
+        "slug_name": "Fortaleza",
+        "data": []
+    },
+    {
+        "name": "Franciacorta",
+        "slug_name": "Franciacorta",
+        "data": []
+    },
+    {
+        "name": "Freeport",
+        "slug_name": "Freeport",
+        "data": []
+    },
+    {
+        "name": "Fuji Speedway",
+        "slug_name": "Fuji Speedway",
+        "data": []
+    },
+    {
+        "name": "Fundidora Park",
+        "slug_name": "Fundidora Park",
+        "data": []
+    },
+    {
+        "name": "Geller\u00e5son",
+        "slug_name": "Gellerson",
+        "data": []
+    },
+    {
+        "name": "Gimli",
+        "slug_name": "Gimli",
+        "data": []
+    },
+    {
+        "name": "GingerMan Raceway",
+        "slug_name": "GingerMan Raceway",
+        "data": []
+    },
+    {
+        "name": "Goi\u00e2nia",
+        "slug_name": "Goinia",
+        "data": []
+    },
+    {
+        "name": "Goldenport Motor Park, Beijing",
+        "slug_name": "Goldenport Motor Park, Beijing",
+        "data": []
+    },
+    {
+        "name": "Goldfields Raceway",
+        "slug_name": "Goldfields Raceway",
+        "data": []
+    },
+    {
+        "name": "Goodwood",
+        "slug_name": "Goodwood",
+        "data": []
+    },
+    {
+        "name": "Grand Prize of America",
+        "slug_name": "Grand Prize of America",
+        "data": []
+    },
+    {
+        "name": "Grenzlandring",
+        "slug_name": "Grenzlandring",
+        "data": []
+    },
+    {
+        "name": "Guadix",
+        "slug_name": "Guadix",
+        "data": []
+    },
+    {
+        "name": "Halifax Citadel Hill",
+        "slug_name": "Halifax Citadel Hill",
+        "data": []
+    },
+    {
+        "name": "Hallett",
+        "slug_name": "Hallett",
+        "data": []
+    },
+    {
+        "name": "H\u00e4meenlinna",
+        "slug_name": "Hmeenlinna",
+        "data": []
+    },
+    {
+        "name": "Hampton Downs",
+        "slug_name": "Hampton Downs",
+        "data": []
+    },
+    {
+        "name": "Hanoi Street Circuit",
+        "slug_name": "Hanoi Street Circuit",
+        "data": []
+    },
+    {
+        "name": "Heartland Park Topeka",
+        "slug_name": "Heartland Park Topeka",
+        "data": []
+    },
+    {
+        "name": "Hedemora",
+        "slug_name": "Hedemora",
+        "data": []
+    },
+    {
+        "name": "Hidden Valley Raceway",
+        "slug_name": "Hidden Valley Raceway",
+        "data": []
+    },
+    {
+        "name": "High Plains Raceway",
+        "slug_name": "High Plains Raceway",
+        "data": []
+    },
+    {
+        "name": "Highlands Motorsport Park",
+        "slug_name": "Highlands Motorsport Park",
+        "data": []
+    },
+    {
+        "name": "Hockenheimring",
+        "slug_name": "Hockenheimring",
+        "data": []
+    },
+    {
+        "name": "Homebush",
+        "slug_name": "Homebush",
+        "data": []
+    },
+    {
+        "name": "Homestead-Miami Speedway",
+        "slug_name": "Homestead-Miami Speedway",
+        "data": []
+    },
+    {
+        "name": "Hong Kong",
+        "slug_name": "Hong Kong",
+        "data": []
+    },
+    {
+        "name": "Houston Reliant Park",
+        "slug_name": "Houston Reliant Park",
+        "data": []
+    },
+    {
+        "name": "Hungaroring",
+        "slug_name": "Hungaroring",
+        "data": []
+    },
+    {
+        "name": "Iberia Circuit",
+        "slug_name": "Iberia Circuit",
+        "data": []
+    },
+    {
+        "name": "Igora Drive",
+        "slug_name": "Igora Drive",
+        "data": []
+    },
+    {
+        "name": "Imola",
+        "slug_name": "Imola",
+        "data": []
+    },
+    {
+        "name": "Indianapolis Motor Speedway",
+        "slug_name": "Indianapolis Motor Speedway",
+        "data": []
+    },
+    {
+        "name": "Infineon Raceway",
+        "slug_name": "Infineon Raceway",
+        "data": []
+    },
+    {
+        "name": "Ingliston",
+        "slug_name": "Ingliston",
+        "data": []
+    },
+    {
+        "name": "Inje Speedium",
+        "slug_name": "Inje Speedium",
+        "data": []
+    },
+    {
+        "name": "Interlagos",
+        "slug_name": "Interlagos",
+        "data": []
+    },
+    {
+        "name": "Interlomas",
+        "slug_name": "Interlomas",
+        "data": []
+    },
+    {
+        "name": "IOM Clypse Course",
+        "slug_name": "IOM Clypse Course",
+        "data": []
+    },
+    {
+        "name": "IOM Mountain Course",
+        "slug_name": "IOM Mountain Course",
+        "data": []
+    },
+    {
+        "name": "IOM St John's Course",
+        "slug_name": "IOM St John's Course",
+        "data": []
+    },
+    {
+        "name": "Iowa Speedway",
+        "slug_name": "Iowa Speedway",
+        "data": []
+    },
+    {
+        "name": "Irungattukottai",
+        "slug_name": "Irungattukottai",
+        "data": []
+    },
+    {
+        "name": "ISM Raceway",
+        "slug_name": "ISM Raceway",
+        "data": []
+    },
+    {
+        "name": "Istanbul Park",
+        "slug_name": "Istanbul Park",
+        "data": []
+    },
+    {
+        "name": "Jacarepagu\u00e1",
+        "slug_name": "Jacarepagu",
+        "data": []
+    },
+    {
+        "name": "Jakarta National Monument",
+        "slug_name": "Jakarta National Monument",
+        "data": []
+    },
+    {
+        "name": "Jarama",
+        "slug_name": "Jarama",
+        "data": []
+    },
+    {
+        "name": "Jerez",
+        "slug_name": "Jerez",
+        "data": []
+    },
+    {
+        "name": "Jiangsu Wantrack International",
+        "slug_name": "Jiangsu Wantrack International",
+        "data": []
+    },
+    {
+        "name": "Johor",
+        "slug_name": "Johor",
+        "data": []
+    },
+    {
+        "name": "Jun\u00edn",
+        "slug_name": "Junn",
+        "data": []
+    },
+    {
+        "name": "Jyllandsringen",
+        "slug_name": "Jyllandsringen",
+        "data": []
+    },
+    {
+        "name": "Kaeng Krachen",
+        "slug_name": "Kaeng Krachen",
+        "data": []
+    },
+    {
+        "name": "Kansas Speedway",
+        "slug_name": "Kansas Speedway",
+        "data": []
+    },
+    {
+        "name": "Karlskoga",
+        "slug_name": "Karlskoga",
+        "data": []
+    },
+    {
+        "name": "KazanRing",
+        "slug_name": "KazanRing",
+        "data": []
+    },
+    {
+        "name": "Keimola",
+        "slug_name": "Keimola",
+        "data": []
+    },
+    {
+        "name": "Kemora",
+        "slug_name": "Kemora",
+        "data": []
+    },
+    {
+        "name": "Kentucky Speedway",
+        "slug_name": "Kentucky Speedway",
+        "data": []
+    },
+    {
+        "name": "Kielce",
+        "slug_name": "Kielce",
+        "data": []
+    },
+    {
+        "name": "Killarney",
+        "slug_name": "Killarney",
+        "data": []
+    },
+    {
+        "name": "Kinnekulle Ring",
+        "slug_name": "Kinnekulle Ring",
+        "data": []
+    },
+    {
+        "name": "Knockhill",
+        "slug_name": "Knockhill",
+        "data": []
+    },
+    {
+        "name": "Korea International Circuit",
+        "slug_name": "Korea International Circuit",
+        "data": []
+    },
+    {
+        "name": "Kristianstad",
+        "slug_name": "Kristianstad",
+        "data": []
+    },
+    {
+        "name": "Kuala Lumpur",
+        "slug_name": "Kuala Lumpur",
+        "data": []
+    },
+    {
+        "name": "Kuwait Motor Town",
+        "slug_name": "Kuwait Motor Town",
+        "data": []
+    },
+    {
+        "name": "Kyalami",
+        "slug_name": "Kyalami",
+        "data": []
+    },
+    {
+        "name": "KymiRing",
+        "slug_name": "KymiRing",
+        "data": []
+    },
+    {
+        "name": "La Ch\u00e2tre",
+        "slug_name": "La Chtre",
+        "data": []
+    },
+    {
+        "name": "La Chutana",
+        "slug_name": "La Chutana",
+        "data": []
+    },
+    {
+        "name": "La Junta",
+        "slug_name": "La Junta",
+        "data": []
+    },
+    {
+        "name": "La Plata",
+        "slug_name": "La Plata",
+        "data": []
+    },
+    {
+        "name": "Laguna Seca",
+        "slug_name": "Laguna Seca",
+        "data": []
+    },
+    {
+        "name": "Lakeside",
+        "slug_name": "Lakeside",
+        "data": []
+    },
+    {
+        "name": "Langhorne Speedway",
+        "slug_name": "Langhorne Speedway",
+        "data": []
+    },
+    {
+        "name": "Las Vegas Motor Speedway",
+        "slug_name": "Las Vegas Motor Speedway",
+        "data": []
+    },
+    {
+        "name": "Las Vizcachas",
+        "slug_name": "Las Vizcachas",
+        "data": []
+    },
+    {
+        "name": "Lausitzring",
+        "slug_name": "Lausitzring",
+        "data": []
+    },
+    {
+        "name": "Le Mans",
+        "slug_name": "Le Mans",
+        "data": []
+    },
+    {
+        "name": "L\u00e9denon",
+        "slug_name": "Ldenon",
+        "data": []
+    },
+    {
+        "name": "Levels Raceway",
+        "slug_name": "Levels Raceway",
+        "data": []
+    },
+    {
+        "name": "Levin",
+        "slug_name": "Levin",
+        "data": []
+    },
+    {
+        "name": "Lihpao International Circuit",
+        "slug_name": "Lihpao International Circuit",
+        "data": []
+    },
+    {
+        "name": "Lime Rock Park",
+        "slug_name": "Lime Rock Park",
+        "data": []
+    },
+    {
+        "name": "London ExCeL",
+        "slug_name": "London ExCeL",
+        "data": []
+    },
+    {
+        "name": "Londrina",
+        "slug_name": "Londrina",
+        "data": []
+    },
+    {
+        "name": "Long Beach",
+        "slug_name": "Long Beach",
+        "data": []
+    },
+    {
+        "name": "Losail International Circuit",
+        "slug_name": "Losail International Circuit",
+        "data": []
+    },
+    {
+        "name": "Lowe's Motor Speedway",
+        "slug_name": "Lowe's Motor Speedway",
+        "data": []
+    },
+    {
+        "name": "Luanda",
+        "slug_name": "Luanda",
+        "data": []
+    },
+    {
+        "name": "Macau Guia",
+        "slug_name": "Macau Guia",
+        "data": []
+    },
+    {
+        "name": "Magione",
+        "slug_name": "Magione",
+        "data": []
+    },
+    {
+        "name": "Magny-Cours",
+        "slug_name": "Magny-Cours",
+        "data": []
+    },
+    {
+        "name": "Maison Blanche Circuit",
+        "slug_name": "Maison Blanche Circuit",
+        "data": []
+    },
+    {
+        "name": "Mallala",
+        "slug_name": "Mallala",
+        "data": []
+    },
+    {
+        "name": "Mallory Park",
+        "slug_name": "Mallory Park",
+        "data": []
+    },
+    {
+        "name": "Mandalika",
+        "slug_name": "Mandalika",
+        "data": []
+    },
+    {
+        "name": "Manfeild",
+        "slug_name": "Manfeild",
+        "data": []
+    },
+    {
+        "name": "Mantorp Park",
+        "slug_name": "Mantorp Park",
+        "data": []
+    },
+    {
+        "name": "Marrakesh",
+        "slug_name": "Marrakesh",
+        "data": []
+    },
+    {
+        "name": "Martinsville Speedway",
+        "slug_name": "Martinsville Speedway",
+        "data": []
+    },
+    {
+        "name": "Mas du Clos",
+        "slug_name": "Mas du Clos",
+        "data": []
+    },
+    {
+        "name": "Mazda Raceway",
+        "slug_name": "Mazda Raceway",
+        "data": []
+    },
+    {
+        "name": "Megara",
+        "slug_name": "Megara",
+        "data": []
+    },
+    {
+        "name": "Mettet",
+        "slug_name": "Mettet",
+        "data": []
+    },
+    {
+        "name": "Mexico City",
+        "slug_name": "Mexico City",
+        "data": []
+    },
+    {
+        "name": "Miami",
+        "slug_name": "Miami",
+        "data": []
+    },
+    {
+        "name": "Michigan International Speedway",
+        "slug_name": "Michigan International Speedway",
+        "data": []
+    },
+    {
+        "name": "Mid-Ohio",
+        "slug_name": "Mid-Ohio",
+        "data": []
+    },
+    {
+        "name": "Mike Pero Motorsports Park",
+        "slug_name": "Mike Pero Motorsports Park",
+        "data": []
+    },
+    {
+        "name": "Miller Motorsports Park",
+        "slug_name": "Miller Motorsports Park",
+        "data": []
+    },
+    {
+        "name": "Milwaukee Mile",
+        "slug_name": "Milwaukee Mile",
+        "data": []
+    },
+    {
+        "name": "Mine Circuit",
+        "slug_name": "Mine Circuit",
+        "data": []
+    },
+    {
+        "name": "Misano",
+        "slug_name": "Misano",
+        "data": []
+    },
+    {
+        "name": "Mondello Park",
+        "slug_name": "Mondello Park",
+        "data": []
+    },
+    {
+        "name": "Mont-Tremblant",
+        "slug_name": "Mont-Tremblant",
+        "data": []
+    },
+    {
+        "name": "Monte Carlo",
+        "slug_name": "Monte Carlo",
+        "data": []
+    },
+    {
+        "name": "Montreal",
+        "slug_name": "Montreal",
+        "data": []
+    },
+    {
+        "name": "Montreal ePrix",
+        "slug_name": "Montreal ePrix",
+        "data": []
+    },
+    {
+        "name": "Monza",
+        "slug_name": "Monza",
+        "data": []
+    },
+    {
+        "name": "Morgan Park Raceway",
+        "slug_name": "Morgan Park Raceway",
+        "data": []
+    },
+    {
+        "name": "Moroso Motorsports Park",
+        "slug_name": "Moroso Motorsports Park",
+        "data": []
+    },
+    {
+        "name": "Moscow",
+        "slug_name": "Moscow",
+        "data": []
+    },
+    {
+        "name": "Moscow Raceway",
+        "slug_name": "Moscow Raceway",
+        "data": []
+    },
+    {
+        "name": "Mosport Park",
+        "slug_name": "Mosport Park",
+        "data": []
+    },
+    {
+        "name": "Most",
+        "slug_name": "Most",
+        "data": []
+    },
+    {
+        "name": "Motegi",
+        "slug_name": "Motegi",
+        "data": []
+    },
+    {
+        "name": "Motorland Arag\u00f3n",
+        "slug_name": "Motorland Aragn",
+        "data": []
+    },
+    {
+        "name": "MotorPark Romania",
+        "slug_name": "MotorPark Romania",
+        "data": []
+    },
+    {
+        "name": "Mugello",
+        "slug_name": "Mugello",
+        "data": []
+    },
+    {
+        "name": "Nanjing",
+        "slug_name": "Nanjing",
+        "data": []
+    },
+    {
+        "name": "Nassau Arawak Cay",
+        "slug_name": "Nassau Arawak Cay",
+        "data": []
+    },
+    {
+        "name": "Nassau Oakes Field",
+        "slug_name": "Nassau Oakes Field",
+        "data": []
+    },
+    {
+        "name": "Nassau Windsor Field",
+        "slug_name": "Nassau Windsor Field",
+        "data": []
+    },
+    {
+        "name": "Navarra",
+        "slug_name": "Navarra",
+        "data": []
+    },
+    {
+        "name": "NCM Motorsports Park",
+        "slug_name": "NCM Motorsports Park",
+        "data": []
+    },
+    {
+        "name": "Nelson Ledges",
+        "slug_name": "Nelson Ledges",
+        "data": []
+    },
+    {
+        "name": "Neuqu\u00e9n",
+        "slug_name": "Neuqun",
+        "data": []
+    },
+    {
+        "name": "New Hampshire Motor Speedway",
+        "slug_name": "New Hampshire Motor Speedway",
+        "data": []
+    },
+    {
+        "name": "New Jersey Motorsports Park",
+        "slug_name": "New Jersey Motorsports Park",
+        "data": []
+    },
+    {
+        "name": "Newcastle",
+        "slug_name": "Newcastle",
+        "data": []
+    },
+    {
+        "name": "Niagara Falls",
+        "slug_name": "Niagara Falls",
+        "data": []
+    },
+    {
+        "name": "Ningbo International Speedway",
+        "slug_name": "Ningbo International Speedway",
+        "data": []
+    },
+    {
+        "name": "Nishi-Nihon Circuit",
+        "slug_name": "Nishi-Nihon Circuit",
+        "data": []
+    },
+    {
+        "name": "Nogaro",
+        "slug_name": "Nogaro",
+        "data": []
+    },
+    {
+        "name": "NOLA Motorsports Park",
+        "slug_name": "NOLA Motorsports Park",
+        "data": []
+    },
+    {
+        "name": "Norisring",
+        "slug_name": "Norisring",
+        "data": []
+    },
+    {
+        "name": "NRing",
+        "slug_name": "NRing",
+        "data": []
+    },
+    {
+        "name": "N\u00fcrburgring",
+        "slug_name": "Nrburgring",
+        "data": []
+    },
+    {
+        "name": "Okayama",
+        "slug_name": "Okayama",
+        "data": []
+    },
+    {
+        "name": "Oliver's Mount",
+        "slug_name": "Oliver's Mount",
+        "data": []
+    },
+    {
+        "name": "Oran Park",
+        "slug_name": "Oran Park",
+        "data": []
+    },
+    {
+        "name": "Ordos",
+        "slug_name": "Ordos",
+        "data": []
+    },
+    {
+        "name": "Oschersleben",
+        "slug_name": "Oschersleben",
+        "data": []
+    },
+    {
+        "name": "\u00d6sterrichring",
+        "slug_name": "sterrichring",
+        "data": []
+    },
+    {
+        "name": "Oulton Park",
+        "slug_name": "Oulton Park",
+        "data": []
+    },
+    {
+        "name": "Pacific Raceways",
+        "slug_name": "Pacific Raceways",
+        "data": []
+    },
+    {
+        "name": "Palanga",
+        "slug_name": "Palanga",
+        "data": []
+    },
+    {
+        "name": "Palm Beach International Raceway",
+        "slug_name": "Palm Beach International Raceway",
+        "data": []
+    },
+    {
+        "name": "Palmer Motorsports Park",
+        "slug_name": "Palmer Motorsports Park",
+        "data": []
+    },
+    {
+        "name": "Pannonia Ring",
+        "slug_name": "Pannonia Ring",
+        "data": []
+    },
+    {
+        "name": "Paramount Ranch",
+        "slug_name": "Paramount Ranch",
+        "data": []
+    },
+    {
+        "name": "Parcmotor Castellol\u00ed",
+        "slug_name": "Parcmotor Castellol",
+        "data": []
+    },
+    {
+        "name": "Paris",
+        "slug_name": "Paris",
+        "data": []
+    },
+    {
+        "name": "P\u00e4rnu Ring",
+        "slug_name": "Prnu Ring",
+        "data": []
+    },
+    {
+        "name": "Parque La Pedrera",
+        "slug_name": "Parque La Pedrera",
+        "data": []
+    },
+    {
+        "name": "Pau",
+        "slug_name": "Pau",
+        "data": []
+    },
+    {
+        "name": "Paul Ricard",
+        "slug_name": "Paul Ricard",
+        "data": []
+    },
+    {
+        "name": "Pembrey",
+        "slug_name": "Pembrey",
+        "data": []
+    },
+    {
+        "name": "Penbay",
+        "slug_name": "Penbay",
+        "data": []
+    },
+    {
+        "name": "Pescara",
+        "slug_name": "Pescara",
+        "data": []
+    },
+    {
+        "name": "Phakisa Freeway",
+        "slug_name": "Phakisa Freeway",
+        "data": []
+    },
+    {
+        "name": "Phillip Island",
+        "slug_name": "Phillip Island",
+        "data": []
+    },
+    {
+        "name": "Phoenix International Raceway",
+        "slug_name": "Phoenix International Raceway",
+        "data": []
+    },
+    {
+        "name": "Phoenix Park",
+        "slug_name": "Phoenix Park",
+        "data": []
+    },
+    {
+        "name": "Pocono Raceway",
+        "slug_name": "Pocono Raceway",
+        "data": []
+    },
+    {
+        "name": "Portland International Raceway",
+        "slug_name": "Portland International Raceway",
+        "data": []
+    },
+    {
+        "name": "Posadas",
+        "slug_name": "Posadas",
+        "data": []
+    },
+    {
+        "name": "Potosino",
+        "slug_name": "Potosino",
+        "data": []
+    },
+    {
+        "name": "Potrero de los Funes",
+        "slug_name": "Potrero de los Funes",
+        "data": []
+    },
+    {
+        "name": "Powerbuilt Tools Raceway",
+        "slug_name": "Powerbuilt Tools Raceway",
+        "data": []
+    },
+    {
+        "name": "Pozna\u0144",
+        "slug_name": "Pozna",
+        "data": []
+    },
+    {
+        "name": "Preluk - Opatija",
+        "slug_name": "Preluk - Opatija",
+        "data": []
+    },
+    {
+        "name": "Puebla",
+        "slug_name": "Puebla",
+        "data": []
+    },
+    {
+        "name": "Pukekohe Park",
+        "slug_name": "Pukekohe Park",
+        "data": []
+    },
+    {
+        "name": "Punta del Este",
+        "slug_name": "Punta del Este",
+        "data": []
+    },
+    {
+        "name": "Putnam Park",
+        "slug_name": "Putnam Park",
+        "data": []
+    },
+    {
+        "name": "Putrajaya",
+        "slug_name": "Putrajaya",
+        "data": []
+    },
+    {
+        "name": "Queensland Raceway",
+        "slug_name": "Queensland Raceway",
+        "data": []
+    },
+    {
+        "name": "Racalmuto",
+        "slug_name": "Racalmuto",
+        "data": []
+    },
+    {
+        "name": "Red Bull Ring",
+        "slug_name": "Red Bull Ring",
+        "data": []
+    },
+    {
+        "name": "Red Star Raceway",
+        "slug_name": "Red Star Raceway",
+        "data": []
+    },
+    {
+        "name": "Reem International Circuit",
+        "slug_name": "Reem International Circuit",
+        "data": []
+    },
+    {
+        "name": "Reims",
+        "slug_name": "Reims",
+        "data": []
+    },
+    {
+        "name": "Ribeir\u00e3o Preto",
+        "slug_name": "Ribeiro Preto",
+        "data": []
+    },
+    {
+        "name": "Richmond",
+        "slug_name": "Richmond",
+        "data": []
+    },
+    {
+        "name": "Rijeka - Grobnik",
+        "slug_name": "Rijeka - Grobnik",
+        "data": []
+    },
+    {
+        "name": "Ring Knutstorp",
+        "slug_name": "Ring Knutstorp",
+        "data": []
+    },
+    {
+        "name": "Riverside",
+        "slug_name": "Riverside",
+        "data": []
+    },
+    {
+        "name": "Road America",
+        "slug_name": "Road America",
+        "data": []
+    },
+    {
+        "name": "Road Atlanta",
+        "slug_name": "Road Atlanta",
+        "data": []
+    },
+    {
+        "name": "Rockingham",
+        "slug_name": "Rockingham",
+        "data": []
+    },
+    {
+        "name": "Roebling Road",
+        "slug_name": "Roebling Road",
+        "data": []
+    },
+    {
+        "name": "Rome",
+        "slug_name": "Rome",
+        "data": []
+    },
+    {
+        "name": "Roosevelt Raceway",
+        "slug_name": "Roosevelt Raceway",
+        "data": []
+    },
+    {
+        "name": "Rosamonte",
+        "slug_name": "Rosamonte",
+        "data": []
+    },
+    {
+        "name": "Rosario",
+        "slug_name": "Rosario",
+        "data": []
+    },
+    {
+        "name": "Ruapuna Park",
+        "slug_name": "Ruapuna Park",
+        "data": []
+    },
+    {
+        "name": "Rudskogen",
+        "slug_name": "Rudskogen",
+        "data": []
+    },
+    {
+        "name": "Rustavi",
+        "slug_name": "Rustavi",
+        "data": []
+    },
+    {
+        "name": "Sachsenring",
+        "slug_name": "Sachsenring",
+        "data": []
+    },
+    {
+        "name": "Salvador",
+        "slug_name": "Salvador",
+        "data": []
+    },
+    {
+        "name": "Salzburgring",
+        "slug_name": "Salzburgring",
+        "data": []
+    },
+    {
+        "name": "San Carlos",
+        "slug_name": "San Carlos",
+        "data": []
+    },
+    {
+        "name": "San Luis, Rosendo Hern\u00e1ndez",
+        "slug_name": "San Luis, Rosendo Hernndez",
+        "data": []
+    },
+    {
+        "name": "San Mart\u00edn, Jorge \u00c1ngel Pena",
+        "slug_name": "San Martn, Jorge ngel Pena",
+        "data": []
+    },
+    {
+        "name": "Sanair",
+        "slug_name": "Sanair",
+        "data": []
+    },
+    {
+        "name": "Sandown Raceway",
+        "slug_name": "Sandown Raceway",
+        "data": []
+    },
+    {
+        "name": "Santa Cruz do Sul",
+        "slug_name": "Santa Cruz do Sul",
+        "data": []
+    },
+    {
+        "name": "Santiago",
+        "slug_name": "Santiago",
+        "data": []
+    },
+    {
+        "name": "Sanya",
+        "slug_name": "Sanya",
+        "data": []
+    },
+    {
+        "name": "Sauga Kolmnurk",
+        "slug_name": "Sauga Kolmnurk",
+        "data": []
+    },
+    {
+        "name": "Savannah",
+        "slug_name": "Savannah",
+        "data": []
+    },
+    {
+        "name": "Sears Point Raceway",
+        "slug_name": "Sears Point Raceway",
+        "data": []
+    },
+    {
+        "name": "Seattle International Raceway",
+        "slug_name": "Seattle International Raceway",
+        "data": []
+    },
+    {
+        "name": "Sebring",
+        "slug_name": "Sebring",
+        "data": []
+    },
+    {
+        "name": "Sendai",
+        "slug_name": "Sendai",
+        "data": []
+    },
+    {
+        "name": "Sentul",
+        "slug_name": "Sentul",
+        "data": []
+    },
+    {
+        "name": "Seoul Street Circuit",
+        "slug_name": "Seoul Street Circuit",
+        "data": []
+    },
+    {
+        "name": "Sepang",
+        "slug_name": "Sepang",
+        "data": []
+    },
+    {
+        "name": "Serres",
+        "slug_name": "Serres",
+        "data": []
+    },
+    {
+        "name": "Shanghai International Circuit",
+        "slug_name": "Shanghai International Circuit",
+        "data": []
+    },
+    {
+        "name": "Shanghai Tianma Circuit",
+        "slug_name": "Shanghai Tianma Circuit",
+        "data": []
+    },
+    {
+        "name": "Shougang Motorsport Valley",
+        "slug_name": "Shougang Motorsport Valley",
+        "data": []
+    },
+    {
+        "name": "Silverstone",
+        "slug_name": "Silverstone",
+        "data": []
+    },
+    {
+        "name": "Singapore Marina Bay",
+        "slug_name": "Singapore Marina Bay",
+        "data": []
+    },
+    {
+        "name": "Skellefte\u00e5",
+        "slug_name": "Skellefte",
+        "data": []
+    },
+    {
+        "name": "Sk\u00f6vde",
+        "slug_name": "Skvde",
+        "data": []
+    },
+    {
+        "name": "Slovakiaring",
+        "slug_name": "Slovakiaring",
+        "data": []
+    },
+    {
+        "name": "Smolensk Ring",
+        "slug_name": "Smolensk Ring",
+        "data": []
+    },
+    {
+        "name": "Snetterton",
+        "slug_name": "Snetterton",
+        "data": []
+    },
+    {
+        "name": "Sochi",
+        "slug_name": "Sochi",
+        "data": []
+    },
+    {
+        "name": "Sokol",
+        "slug_name": "Sokol",
+        "data": []
+    },
+    {
+        "name": "Solvalla",
+        "slug_name": "Solvalla",
+        "data": []
+    },
+    {
+        "name": "Sonoma Raceway",
+        "slug_name": "Sonoma Raceway",
+        "data": []
+    },
+    {
+        "name": "Spa-Francorchamps",
+        "slug_name": "Spa-Francorchamps",
+        "data": []
+    },
+    {
+        "name": "St. Jovite",
+        "slug_name": "St. Jovite",
+        "data": []
+    },
+    {
+        "name": "St. Petersburg",
+        "slug_name": "St. Petersburg",
+        "data": []
+    },
+    {
+        "name": "Sturup",
+        "slug_name": "Sturup",
+        "data": []
+    },
+    {
+        "name": "Subic Bay",
+        "slug_name": "Subic Bay",
+        "data": []
+    },
+    {
+        "name": "Sugo",
+        "slug_name": "Sugo",
+        "data": []
+    },
+    {
+        "name": "Summit Point",
+        "slug_name": "Summit Point",
+        "data": []
+    },
+    {
+        "name": "Surfers Paradise",
+        "slug_name": "Surfers Paradise",
+        "data": []
+    },
+    {
+        "name": "Suzuka",
+        "slug_name": "Suzuka",
+        "data": []
+    },
+    {
+        "name": "Sydney Motorsport Park",
+        "slug_name": "Sydney Motorsport Park",
+        "data": []
+    },
+    {
+        "name": "Sydney Olympic Park",
+        "slug_name": "Sydney Olympic Park",
+        "data": []
+    },
+    {
+        "name": "Symmons Plains",
+        "slug_name": "Symmons Plains",
+        "data": []
+    },
+    {
+        "name": "Tacna",
+        "slug_name": "Tacna",
+        "data": []
+    },
+    {
+        "name": "Taebaek Racing Park",
+        "slug_name": "Taebaek Racing Park",
+        "data": []
+    },
+    {
+        "name": "Talladega Superspeedway",
+        "slug_name": "Talladega Superspeedway",
+        "data": []
+    },
+    {
+        "name": "Tarum\u00e3",
+        "slug_name": "Tarum",
+        "data": []
+    },
+    {
+        "name": "Taupo",
+        "slug_name": "Taupo",
+        "data": []
+    },
+    {
+        "name": "Teretonga Park",
+        "slug_name": "Teretonga Park",
+        "data": []
+    },
+    {
+        "name": "Termas de R\u00edo Hondo",
+        "slug_name": "Termas de Ro Hondo",
+        "data": []
+    },
+    {
+        "name": "Texas Motor Speedway",
+        "slug_name": "Texas Motor Speedway",
+        "data": []
+    },
+    {
+        "name": "Texas World Speedway",
+        "slug_name": "Texas World Speedway",
+        "data": []
+    },
+    {
+        "name": "The Bend Motorsport Park",
+        "slug_name": "The Bend Motorsport Park",
+        "data": []
+    },
+    {
+        "name": "Thruxton",
+        "slug_name": "Thruxton",
+        "data": []
+    },
+    {
+        "name": "Thunderhill Raceway Park",
+        "slug_name": "Thunderhill Raceway Park",
+        "data": []
+    },
+    {
+        "name": "TI Aida",
+        "slug_name": "TI Aida",
+        "data": []
+    },
+    {
+        "name": "Tierp Arena",
+        "slug_name": "Tierp Arena",
+        "data": []
+    },
+    {
+        "name": "Timaru",
+        "slug_name": "Timaru",
+        "data": []
+    },
+    {
+        "name": "Tokachi Speedway",
+        "slug_name": "Tokachi Speedway",
+        "data": []
+    },
+    {
+        "name": "Toronto, Exhibition Place",
+        "slug_name": "Toronto, Exhibition Place",
+        "data": []
+    },
+    {
+        "name": "Townsville",
+        "slug_name": "Townsville",
+        "data": []
+    },
+    {
+        "name": "Trac M\u00f4n",
+        "slug_name": "Trac Mn",
+        "data": []
+    },
+    {
+        "name": "Transilvania Motor Ring",
+        "slug_name": "Transilvania Motor Ring",
+        "data": []
+    },
+    {
+        "name": "Trenton Speedway",
+        "slug_name": "Trenton Speedway",
+        "data": []
+    },
+    {
+        "name": "Tri\u00f3valo Bernardo Obreg\u00f3n",
+        "slug_name": "Trivalo Bernardo Obregn",
+        "data": []
+    },
+    {
+        "name": "Trois-Rivi\u00e8res",
+        "slug_name": "Trois-Rivires",
+        "data": []
+    },
+    {
+        "name": "Tsukuba",
+        "slug_name": "Tsukuba",
+        "data": []
+    },
+    {
+        "name": "TT Circuit Assen",
+        "slug_name": "TT Circuit Assen",
+        "data": []
+    },
+    {
+        "name": "Twin-Ring Motegi",
+        "slug_name": "Twin-Ring Motegi",
+        "data": []
+    },
+    {
+        "name": "T\u0177 Croes",
+        "slug_name": "T Croes",
+        "data": []
+    },
+    {
+        "name": "Utah Motorsports Campus",
+        "slug_name": "Utah Motorsports Campus",
+        "data": []
+    },
+    {
+        "name": "V1 Auto World Tianjin",
+        "slug_name": "V1 Auto World Tianjin",
+        "data": []
+    },
+    {
+        "name": "Val de Vienne",
+        "slug_name": "Val de Vienne",
+        "data": []
+    },
+    {
+        "name": "Valencia (Cheste/Ricardo Tormo)",
+        "slug_name": "Valencia (Cheste/Ricardo Tormo)",
+        "data": []
+    },
+    {
+        "name": "Val\u00e8ncia Street Circuit",
+        "slug_name": "Valncia Street Circuit",
+        "data": []
+    },
+    {
+        "name": "V\u00e5lerbanen",
+        "slug_name": "Vlerbanen",
+        "data": []
+    },
+    {
+        "name": "Vallelunga",
+        "slug_name": "Vallelunga",
+        "data": []
+    },
+    {
+        "name": "Varano",
+        "slug_name": "Varano",
+        "data": []
+    },
+    {
+        "name": "Velo Citt\u00e0",
+        "slug_name": "Velo Citt",
+        "data": []
+    },
+    {
+        "name": "Velopark",
+        "slug_name": "Velopark",
+        "data": []
+    },
+    {
+        "name": "Vila Real",
+        "slug_name": "Vila Real",
+        "data": []
+    },
+    {
+        "name": "Virgina International Raceway",
+        "slug_name": "Virgina International Raceway",
+        "data": []
+    },
+    {
+        "name": "Wakefield Park",
+        "slug_name": "Wakefield Park",
+        "data": []
+    },
+    {
+        "name": "Walt Disney World Speedway",
+        "slug_name": "Walt Disney World Speedway",
+        "data": []
+    },
+    {
+        "name": "Wanganui",
+        "slug_name": "Wanganui",
+        "data": []
+    },
+    {
+        "name": "Watkins Glen",
+        "slug_name": "Watkins Glen",
+        "data": []
+    },
+    {
+        "name": "West Delta Park Raceway",
+        "slug_name": "West Delta Park Raceway",
+        "data": []
+    },
+    {
+        "name": "Westwood",
+        "slug_name": "Westwood",
+        "data": []
+    },
+    {
+        "name": "Willow Springs",
+        "slug_name": "Willow Springs",
+        "data": []
+    },
+    {
+        "name": "Winfield",
+        "slug_name": "Winfield",
+        "data": []
+    },
+    {
+        "name": "Winton",
+        "slug_name": "Winton",
+        "data": []
+    },
+    {
+        "name": "World Wide Technology Raceway at Gateway",
+        "slug_name": "World Wide Technology Raceway at Gateway",
+        "data": []
+    },
+    {
+        "name": "Wuhan",
+        "slug_name": "Wuhan",
+        "data": []
+    },
+    {
+        "name": "Yahuarcocha",
+        "slug_name": "Yahuarcocha",
+        "data": []
+    },
+    {
+        "name": "Yancheng",
+        "slug_name": "Yancheng",
+        "data": []
+    },
+    {
+        "name": "Yas Marina",
+        "slug_name": "Yas Marina",
+        "data": []
+    },
+    {
+        "name": "Zalu\u017eani",
+        "slug_name": "Zaluani",
+        "data": []
+    },
+    {
+        "name": "Zandvoort",
+        "slug_name": "Zandvoort",
+        "data": []
+    },
+    {
+        "name": "Zhejiang Circuit",
+        "slug_name": "Zhejiang Circuit",
+        "data": []
+    },
+    {
+        "name": "Zhuhai",
+        "slug_name": "Zhuhai",
+        "data": []
+    },
+    {
+        "name": "Zolder",
+        "slug_name": "Zolder",
+        "data": []
+    },
+    {
+        "name": "Z\u00fcrich",
+        "slug_name": "Zrich",
+        "data": []
+    },
+    {
+        "name": "Zwartkops",
+        "slug_name": "Zwartkops",
+        "data": []
+    }
+]
