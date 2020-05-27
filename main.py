@@ -93,39 +93,27 @@ class HTTPServer(TCPServer):
         return response
 
     def handle_GET(self, request):
-        def return_names(database, track_name):
-            with open(database, "r") as jsonFile:
+        if str(request.uri) != '/':
+            track_name = str(request.uri.split('/')[1])
+            response_line = self.response_line(status_code=200)
+            response_headers = self.response_headers()
+            blank_line = "\r\n"
+
+            with open('track.json', "r") as jsonFile:
                 data_json = json.load(jsonFile)
             for i in data_json:
                 if i['slug_name'].lower() == track_name.lower():
-                    return str(i['name'] + '   ' + str(i['data']))
+                    self.requested_track = i
+            if self.requested_track['data'] != []:
+                lines_driver = '/n'.join(f'<a>{i["driver"]}</a>' for i in self.requested_track['data'])
+                lines_car = '/n'.join(f'<a>{i["car"]}</a>' for i in self.requested_track['data'])
+                lines_time = '/n'.join(f'<a>{i["time"]}</a>' for i in self.requested_track['data'])
+                lines_added = '/n'.join(f'<a>{i["added_time"]}</a>' for i in self.requested_track['data'])
 
-        track_name = str(request.uri.split('/')[1])
-
-
-
-        response_line = self.response_line(status_code=200)
-
-
-        response_headers = self.response_headers()
-
-        blank_line = "\r\n"
-
-        with open('track.json', "r") as jsonFile:
-            data_json = json.load(jsonFile)
-        for i in data_json:
-            if i['slug_name'].lower() == track_name.lower():
-                requested_track = i
-        if requested_track['data'] != []:
-            lines_driver = '/n'.join(f'<a>{i["driver"]}</a>' for i in requested_track['data'])
-            lines_car = '/n'.join(f'<a>{i["car"]}</a>' for i in requested_track['data'])
-            lines_time = '/n'.join(f'<a>{i["time"]}</a>' for i in requested_track['data'])
-            lines_added = '/n'.join(f'<a>{i["added_time"]}</a>' for i in requested_track['data'])
-
-            response_body = f"""
+                response_body = f"""
             <html>
                 <body>
-                    <h1>{requested_track['name']}</h1>
+                    <h1>{self.requested_track['name']}</h1>
                 <table style="width:100%">
 <table style="width:100%">
   <tr>
@@ -144,18 +132,35 @@ class HTTPServer(TCPServer):
                 </body>
             </html>
         """
-        else:
-            response_body = f"""
+            else:
+                response_body = f"""
             <html>
                 <body>
-                    <h1>{requested_track['name']}</h1>
+                    <h1>{self.requested_track['name']}</h1>
                     <a>None laptimes were added</a>
                 </body>
             </html>
 """
-        response = response_line + response_headers + blank_line + response_body
-        response_as_bytes = str.encode(response)
-        return response_as_bytes
+            response = response_line + response_headers + blank_line + response_body
+            response_as_bytes = str.encode(response)
+            return response_as_bytes
+        else:
+            response_line = self.response_line(status_code=200)
+            response_headers = self.response_headers()
+            blank_line = "\r\n"
+            with open('track.json', "r") as jsonFile:
+                data_json = json.load(jsonFile)
+            track_href = '\n'.join(f'<a href = {i["slug_name"]}>{i["name"]}</a>' for i in data_json)
+            response_body = f"""
+            <html>
+                <body>
+                    <p>{track_href}</p>
+                </body>
+            </html>
+                            """
+            response = response_line + response_headers + blank_line + response_body
+            response_as_bytes = str.encode(response)
+            return response_as_bytes
 
     def handle_POST(self, request):
         dict = request.data
