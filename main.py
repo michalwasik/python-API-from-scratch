@@ -31,10 +31,12 @@ class TCPServer:
     def handle_request(self, data):
         return data
 
+
 class HttpRequest:
     def __init__(self, data):
         self.metod = None
         self.uri = None
+        self.data = None
         self.http_version ='1.1'
         self.headers = {}
         self.parse(data)
@@ -44,7 +46,7 @@ class HttpRequest:
         request_line = lines[0]
         self.parse_request_line(request_line)
         if self.metod == 'POST':
-            self.data = json.loads(lines[-1])
+            self.data = dict(param.split('=') for param in lines[-1].split('&'))
 
     def parse_request_line(self, request_line):
         words = request_line.split(' ')
@@ -53,23 +55,28 @@ class HttpRequest:
         if len(words) > 2:
             self.http_version = words[2]
 
+
 class HTTPServer(TCPServer):
     headers = {
         'Server': 'Track_Time',
         'Content-Type': 'text/html',
-        'Accept - Language': 'fr-CH, fr;q=0.9, en;q=0.8, de;q=0.7, *;q = 0.5' #????????????????
     }
     status_codes = {
         404: 'Not Found',
         200: ' OK',
-        400: 'Bad Request'
+        400: 'Bad Request',
+        501: 'Not Implemented',
     }
+
+    def send_response(self, response_line, response_headers, blank_line, response_body):
+        response = f'{response_line}{response_headers}\r\n{response_body}'
+        return str.encode(response)
 
 
     def response_line(self, status_code):
         """Returns response line"""
         reason = self.status_codes[status_code]
-        return "HTTP/1.1 %s %s\r\n" % (status_code, reason)
+        return f"HTTP/1.1 {status_code} {reason}\r\n"
 
     def response_headers(self, extra_headers=None):
         """Returns headers
@@ -84,14 +91,26 @@ class HTTPServer(TCPServer):
         headers = ""
 
         for h in self.headers:
-            headers += "%s: %s\r\n" % (h, self.headers[h])
+            headers += f"{h}: {self.headers[h]}\r\n"
         return headers
 
     def handle_request(self, request):
         request = HttpRequest(request)
-        handler = getattr(self, 'handle_%s' % request.metod)
-        response = handler(request)
+        if request.metod == "GET":
+            response = self.handle_GET(self, request)
+        elif request.metod == "POST":
+            response = self.handle_POST(self, request)
+        else:
+            response = self.HTTP_501_handler(self, request)
         return response
+
+    def HTTP_501_handler(self, request):
+        response_line = self.response_line(status_code=501)
+        response_headers = self.response_headers()
+        blank_line = '\r\n'
+        response_body = '<h1>501 Not Implemented</h1>'
+        return self.send_response(self, response_line, response_headers, blank_line, response_body)
+
 
     def handle_GET(self, request):
         if str(request.uri) != '/':
@@ -99,7 +118,7 @@ class HTTPServer(TCPServer):
             response_line = self.response_line(status_code=200)
             response_headers = self.response_headers()
             blank_line = "\r\n"
-            requested_track = {}
+
             with open('track.json', "r") as jsonFile:
                 for track in json.load(jsonFile):
                     if track['slug_name'].lower() == track_name.lower():
@@ -166,9 +185,7 @@ class HTTPServer(TCPServer):
                 </body>
             </html>
 """
-            response = response_line + response_headers + blank_line + response_body
-            response_as_bytes = str.encode(response)
-            return response_as_bytes
+            return self.send_response(self, response_line, response_headers, blank_line, response_body)
         else:
             response_line = self.response_line(status_code=200)
             response_headers = self.response_headers()
@@ -183,50 +200,44 @@ class HTTPServer(TCPServer):
                 </body>
             </html>
                             """
-            response = response_line + response_headers + blank_line + response_body
-            response_as_bytes = str.encode(response)
-            return response_as_bytes
+            return self.send_response(self, response_line, response_headers, blank_line, response_body)
 
     def handle_POST(self, request):
-        dict = dict(param.split('=') for param in request.data.split('&'))
-        track_name = str(request.uri.split('/')[1])
+        add_dict = request.data
+        track_name = request.uri.split('/')[1]
         dict['added_time'] = datetime.now().__str__()
 
-        if isinstance(track_name, str) and isinstance(dict['driver'], str) and isinstance(dict['car'], str) and isinstance(dict['time'], (float, int)):
+        if (
+                isinstance(track_name, str) and
+                isinstance(dict['driver'], str) and
+                isinstance(dict['car'], str) and
+                isinstance(dict['time'], (float, int))
+            ):
+
             with open("track.json", "r") as jsonFile:
                 data_json = json.load(jsonFile)
-            for i in data_json:
-                if i['slug_name'] == track_name:
-                    i['data'].append(dict)
+            for tracks in data_json:
+                if tracks['slug_name'] == track_name:
+                    tracks['data'].append(add_dict)
                     break
             with open("track.json", "w") as jsonFile:
                 json.dump(data_json, jsonFile, indent=4)
 
-            response_line = self.response_line(status_code=200)
-
-            response_headers = self.response_headers()
-
-            blank_line = "\r\n"
-
-            response_body = ""
-
+                response_line = self.response_line(status_code=200)
+                response_headers = self.response_headers()
+                blank_line = "\r\n"
+                response_body = ""
         else:
-
             response_line = self.response_line(status_code=400)
-
             response_headers = self.response_headers()
-
             blank_line = "\r\n"
-
             response_body = """
             <html>
                 <body>400 Bad Request</body>
             </html>
             """
+            return self.send_response(self, response_line, response_headers, blank_line, response_body)
 
-        response = response_line + response_headers + blank_line + response_body
-        response_as_bytes = str.encode(response)
-        return response_as_bytes
 
 if __name__ == '__main__':
     server = HTTPServer()
