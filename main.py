@@ -57,6 +57,7 @@ class HTTPServer(TCPServer):
     headers = {
         'Server': 'Track_Time',
         'Content-Type': 'text/html',
+        'Accept - Language': 'fr-CH, fr;q=0.9, en;q=0.8, de;q=0.7, *;q = 0.5' #????????????????
     }
     status_codes = {
         404: 'Not Found',
@@ -98,22 +99,37 @@ class HTTPServer(TCPServer):
             response_line = self.response_line(status_code=200)
             response_headers = self.response_headers()
             blank_line = "\r\n"
-
+            requested_track = {}
             with open('track.json', "r") as jsonFile:
-                data_json = json.load(jsonFile)
-            for i in data_json:
-                if i['slug_name'].lower() == track_name.lower():
-                    self.requested_track = i
-            if self.requested_track['data'] != []:
-                lines_driver = '/n'.join(f'<a>{i["driver"]}</a>' for i in self.requested_track['data'])
-                lines_car = '/n'.join(f'<a>{i["car"]}</a>' for i in self.requested_track['data'])
-                lines_time = '/n'.join(f'<a>{i["time"]}</a>' for i in self.requested_track['data'])
-                lines_added = '/n'.join(f'<a>{i["added_time"]}</a>' for i in self.requested_track['data'])
+                for track in json.load(jsonFile):
+                    if track['slug_name'].lower() == track_name.lower():
+                        requested_track = track
+                        break
+                else:
+                    response_body = f"""<html>
+                    <body>
+                    <h1>Brak podanego toru</h1>
+                    </body>
+                    </html>"""
+            if 'data' in requested_track and requested_track['data'] != []:
+                lines_driver = '/n'.join(f'<a>{i["driver"]}</a>' for i in requested_track['data'])
+                lines_car = '/n'.join(f'<a>{i["car"]}</a>' for i in requested_track['data'])
+                lines_time = '/n'.join(f'<a>{i["time"]}</a>' for i in requested_track['data'])
+                lines_added = '/n'.join(f'<a>{i["added_time"]}</a>' for i in requested_track['data'])
 
                 response_body = f"""
             <html>
                 <body>
-                    <h1>{self.requested_track['name']}</h1>
+                    <h1>{requested_track['name']}</h1><br>
+                           <form target="_self" method="post">
+  <label for="driver">Your name:</label><br>
+  <input type="text" id="driver" name="driver"><br>
+  <label for="car">Car:</label><br>
+  <input type="text" id="car" name="car"><br>   
+  <label for ="time">Your time:</label><br>
+  <input type ="text" id="time" name = "time"><br>
+  <input type="submit" value="Submit">
+                            </form>
                 <table style="width:100%">
 <table style="width:100%">
   <tr>
@@ -132,12 +148,21 @@ class HTTPServer(TCPServer):
                 </body>
             </html>
         """
-            else:
+            elif 'name' in requested_track:
                 response_body = f"""
             <html>
                 <body>
-                    <h1>{self.requested_track['name']}</h1>
-                    <a>None laptimes were added</a>
+                    <h1>{requested_track['name']}</h1>
+                    <a>None laptimes were added</a><br><br><br>
+                    <a>Add your time:</a><br><br>
+                           <form target="_self" method="post">
+  <label for="driver">Your name:</label><br>
+  <input type="text" id="driver" name="driver"><br>
+  <label for="car">Car:</label><br>
+  <input type="text" id="car" name="car"><br>
+  <label for ="time">Your time:</label><br>
+  <input type ="text" id="time" name = "time"><br>
+  <input type="submit" value="Submit">
                 </body>
             </html>
 """
@@ -150,7 +175,7 @@ class HTTPServer(TCPServer):
             blank_line = "\r\n"
             with open('track.json', "r") as jsonFile:
                 data_json = json.load(jsonFile)
-            track_href = '\n'.join(f'<a href = {i["slug_name"]}>{i["name"]}</a>' for i in data_json)
+            track_href = '<br>\n'.join(f'<a href = {i["slug_name"]}>{i["name"]}</a>' for i in data_json)
             response_body = f"""
             <html>
                 <body>
@@ -163,20 +188,15 @@ class HTTPServer(TCPServer):
             return response_as_bytes
 
     def handle_POST(self, request):
-        dict = request.data
-        track_name = dict.get('name')
-        driver = dict.get('driver')
-        car = dict.get('car')
-        lap_time = dict.get('time')
-        now = datetime.now().__str__()
+        dict = dict(param.split('=') for param in request.data.split('&'))
+        track_name = str(request.uri.split('/')[1])
+        dict['added_time'] = datetime.now().__str__()
 
-        if isinstance(track_name, str) and isinstance(driver, str) and isinstance(car, str) and isinstance(lap_time, (float, int)):
+        if isinstance(track_name, str) and isinstance(dict['driver'], str) and isinstance(dict['car'], str) and isinstance(dict['time'], (float, int)):
             with open("track.json", "r") as jsonFile:
                 data_json = json.load(jsonFile)
             for i in data_json:
-                if i['name'] == track_name:
-                    del dict['name']
-                    dict['added_time'] = now
+                if i['slug_name'] == track_name:
                     i['data'].append(dict)
                     break
             with open("track.json", "w") as jsonFile:

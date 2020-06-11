@@ -7,23 +7,16 @@
     {
         "name": "Abbazia",
         "slug_name": "Abbazia",
-        "data": [
-            {
-                "driver": "zuzia",
-                "car": "leon",
-                "time": 13.5,
-                "added_time": "2020-05-27 17:29:53.692427"
-            }
-        ]
+        "data": []
     },
     {
         "name": "Aberdare Park",
-        "slug_name": "Aberdare Park",
+        "slug_name": "AberdarePark",
         "data": []
     },
     {
         "name": "Ad Diriyah",
-        "slug_name": "Ad Diriyah",
+        "slug_name": "AdDiriyah",
         "data": []
     },
     {
@@ -33,7 +26,7 @@
     },
     {
         "name": "Adelaide International Raceway",
-        "slug_name": "Adelaide International Raceway",
+        "slug_name": "AdelaideInternationalRaceway",
         "data": []
     },
     {
@@ -58,7 +51,7 @@
     },
     {
         "name": "Albert Park, Melbourne",
-        "slug_name": "Albert Park, Melbourne",
+        "slug_name": "AlbertParkMelbourne",
         "data": []
     },
     {
@@ -68,7 +61,7 @@
     },
     {
         "name": "Algarve, Portim\u00e3o",
-        "slug_name": "Algarve, Portimo",
+        "slug_name": "AlgarvePortimo",
         "data": []
     },
     {
@@ -78,12 +71,12 @@
     },
     {
         "name": "Amaroo Park",
-        "slug_name": "Amaroo Park",
+        "slug_name": "AmarooPark",
         "data": []
     },
     {
         "name": "Andalucia Circuit",
-        "slug_name": "Andalucia Circuit",
+        "slug_name": "AndaluciaCircuit",
         "data": []
     },
     {
@@ -93,67 +86,67 @@
     },
     {
         "name": "Anglesey Circuit",
-        "slug_name": "Anglesey Circuit",
+        "slug_name": "AngleseyCircuit",
         "data": []
     },
     {
         "name": "Arctic Circle Raceway",
-        "slug_name": "Arctic Circle Raceway",
+        "slug_name": "ArcticCircleRaceway",
         "data": []
     },
     {
         "name": "Area 27",
-        "slug_name": "Area 27",
+        "slug_name": "Area27",
         "data": []
     },
     {
         "name": "Arroyo Seco",
-        "slug_name": "Arroyo Seco",
+        "slug_name": "ArroyoSeco",
         "data": []
     },
     {
         "name": "Ascari Race Resort",
-        "slug_name": "Ascari Race Resort",
+        "slug_name": "AscariRaceResort",
         "data": []
     },
     {
         "name": "Athens Circuit",
-        "slug_name": "Athens Circuit",
+        "slug_name": "AthensCircuit",
         "data": []
     },
     {
         "name": "Atlanta Motor Speedway",
-        "slug_name": "Atlanta Motor Speedway",
+        "slug_name": "AtlantaMotorSpeedway",
         "data": []
     },
     {
         "name": "Atlanta Motorsports Park",
-        "slug_name": "Atlanta Motorsports Park",
+        "slug_name": "AtlantaMotorsportsPark",
         "data": []
     },
     {
         "name": "Atlantic Motorsports Park",
-        "slug_name": "Atlantic Motorsports Park",
+        "slug_name": "AtlanticMotorsportsPark",
         "data": []
     },
     {
         "name": "Atsu Circuit",
-        "slug_name": "Atsu Circuit",
+        "slug_name": "AtsuCircuit",
         "data": []
     },
     {
         "name": "Audru Ring",
-        "slug_name": "Audru Ring",
+        "slug_name": "AudruRing",
         "data": []
     },
     {
         "name": "Augusta International Raceway",
-        "slug_name": "Augusta International Raceway",
+        "slug_name": "AugustaInternationalRaceway",
         "data": []
     },
     {
         "name": "Auto Club Speedway, Fontana",
-        "slug_name": "Auto Club Speedway, Fontana",
+        "slug_name": "AutoClubSpeedwayFontana",
         "data": []
     },
     {
@@ -163,52 +156,52 @@
     },
     {
         "name": "Aut\u00f3dromo de Rivera",
-        "slug_name": "Autdromo de Rivera",
+        "slug_name": "AutdromodeRivera",
         "data": []
     },
     {
         "name": "Autodromo de Tocancip\u00e1",
-        "slug_name": "Autodromo de Tocancip",
+        "slug_name": "AutodromodeTocancip",
         "data": []
     },
     {
         "name": "Autodr\u00f3mo Internacional de Guadalajara",
-        "slug_name": "Autodrmo Internacional de Guadalajara",
+        "slug_name": "AutodrmoInternacionaldeGuadalajara",
         "data": []
     },
     {
         "name": "Autodromo Jos\u00e9 Carlos Bassi",
-        "slug_name": "Autodromo Jos Carlos Bassi",
+        "slug_name": "AutodromoJosCarlosBassi",
         "data": []
     },
     {
         "name": "Aut\u00f3dromo Ricardo Mej\u00eda",
-        "slug_name": "Autdromo Ricardo Meja",
+        "slug_name": "AutdromoRicardoMeja",
         "data": []
     },
     {
         "name": "Aut\u00f3dromo Roberto Mouras",
-        "slug_name": "Autdromo Roberto Mouras",
+        "slug_name": "AutdromoRobertoMouras",
         "data": []
     },
     {
         "name": "Aut\u00f3dromo San Nicol\u00e1s Ciudad",
-        "slug_name": "Autdromo San Nicols Ciudad",
+        "slug_name": "AutdromoSanNicolsCiudad",
         "data": []
     },
     {
         "name": "Aut\u00f3dromo Sergio Wagner Rosa",
-        "slug_name": "Autdromo Sergio Wagner Rosa",
+        "slug_name": "AutdromoSergioWagnerRosa",
         "data": []
     },
     {
         "name": "Aut\u00f3dromo Vegas de Quilaco",
-        "slug_name": "Autdromo Vegas de Quilaco",
+        "slug_name": "AutdromoVegasdeQuilaco",
         "data": []
     },
     {
         "name": "Autodromo Yucat\u00e1n",
-        "slug_name": "Autodromo Yucatn",
+        "slug_name": "AutodromoYucatn",
         "data": []
     },
     {
@@ -223,7 +216,7 @@
     },
     {
         "name": "Bahrain International Circuit",
-        "slug_name": "Bahrain International Circuit",
+        "slug_name": "BahrainInternationalCircuit",
         "data": []
     },
     {
@@ -238,12 +231,12 @@
     },
     {
         "name": "Barbagallo Raceway Wanneroo",
-        "slug_name": "Barbagallo Raceway Wanneroo",
+        "slug_name": "BarbagalloRacewayWanneroo",
         "data": []
     },
     {
         "name": "Barber Motorsports Park",
-        "slug_name": "Barber Motorsports Park",
+        "slug_name": "BarberMotorsportsPark",
         "data": []
     },
     {
@@ -253,22 +246,22 @@
     },
     {
         "name": "Bathurst Mount Panorama",
-        "slug_name": "Bathurst Mount Panorama",
+        "slug_name": "BathurstMountPanorama",
         "data": []
     },
     {
         "name": "Battersea Park",
-        "slug_name": "Battersea Park",
+        "slug_name": "BatterseaPark",
         "data": []
     },
     {
         "name": "Beijing Olympic Park",
-        "slug_name": "Beijing Olympic Park",
+        "slug_name": "BeijingOlympicPark",
         "data": []
     },
     {
         "name": "Bellah\u00f8j Park",
-        "slug_name": "Bellahj Park",
+        "slug_name": "BellahjPark",
         "data": []
     },
     {
@@ -278,7 +271,7 @@
     },
     {
         "name": "Berlin Alexanderplatz",
-        "slug_name": "Berlin Alexanderplatz",
+        "slug_name": "BerlinAlexanderplatz",
         "data": []
     },
     {
@@ -298,12 +291,12 @@
     },
     {
         "name": "Billown Circuit",
-        "slug_name": "Billown Circuit",
+        "slug_name": "BillownCircuit",
         "data": []
     },
     {
         "name": "Bilster Berg",
-        "slug_name": "Bilster Berg",
+        "slug_name": "BilsterBerg",
         "data": []
     },
     {
@@ -313,7 +306,7 @@
     },
     {
         "name": "Bira Circuit",
-        "slug_name": "Bira Circuit",
+        "slug_name": "BiraCircuit",
         "data": []
     },
     {
@@ -328,7 +321,7 @@
     },
     {
         "name": "Blackhawk Farms",
-        "slug_name": "Blackhawk Farms",
+        "slug_name": "BlackhawkFarms",
         "data": []
     },
     {
@@ -353,7 +346,7 @@
     },
     {
         "name": "Brands Hatch",
-        "slug_name": "Brands Hatch",
+        "slug_name": "BrandsHatch",
         "data": []
     },
     {
@@ -363,7 +356,7 @@
     },
     {
         "name": "Bristol Motor Speedway",
-        "slug_name": "Bristol Motor Speedway",
+        "slug_name": "BristolMotorSpeedway",
         "data": []
     },
     {
@@ -388,22 +381,22 @@
     },
     {
         "name": "Buddh International Circuit",
-        "slug_name": "Buddh International Circuit",
+        "slug_name": "BuddhInternationalCircuit",
         "data": []
     },
     {
         "name": "Buenos Aires",
-        "slug_name": "Buenos Aires",
+        "slug_name": "BuenosAires",
         "data": []
     },
     {
         "name": "Buenos Aires, Puerto Madero",
-        "slug_name": "Buenos Aires, Puerto Madero",
+        "slug_name": "BuenosAiresPuertoMadero",
         "data": []
     },
     {
         "name": "Bugatti Circuit",
-        "slug_name": "Bugatti Circuit",
+        "slug_name": "BugattiCircuit",
         "data": []
     },
     {
@@ -413,17 +406,17 @@
     },
     {
         "name": "Buriram United International Circuit",
-        "slug_name": "Buriram United International Circuit",
+        "slug_name": "BuriramUnitedInternationalCircuit",
         "data": []
     },
     {
         "name": "Bushy Park",
-        "slug_name": "Bushy Park",
+        "slug_name": "BushyPark",
         "data": []
     },
     {
         "name": "Cadwell Park",
-        "slug_name": "Cadwell Park",
+        "slug_name": "CadwellPark",
         "data": []
     },
     {
@@ -433,7 +426,7 @@
     },
     {
         "name": "Calabogie Motorsports Park",
-        "slug_name": "Calabogie Motorsports Park",
+        "slug_name": "CalabogieMotorsportsPark",
         "data": []
     },
     {
@@ -443,22 +436,22 @@
     },
     {
         "name": "Calder Park",
-        "slug_name": "Calder Park",
+        "slug_name": "CalderPark",
         "data": []
     },
     {
         "name": "California Speedway",
-        "slug_name": "California Speedway",
+        "slug_name": "CaliforniaSpeedway",
         "data": []
     },
     {
         "name": "Campo Grande",
-        "slug_name": "Campo Grande",
+        "slug_name": "CampoGrande",
         "data": []
     },
     {
         "name": "Carolina Motorsports Park",
-        "slug_name": "Carolina Motorsports Park",
+        "slug_name": "CarolinaMotorsportsPark",
         "data": []
     },
     {
@@ -468,22 +461,22 @@
     },
     {
         "name": "Castle Combe",
-        "slug_name": "Castle Combe",
+        "slug_name": "CastleCombe",
         "data": []
     },
     {
         "name": "Catalina Park",
-        "slug_name": "Catalina Park",
+        "slug_name": "CatalinaPark",
         "data": []
     },
     {
         "name": "Cemetery Circuit",
-        "slug_name": "Cemetery Circuit",
+        "slug_name": "CemeteryCircuit",
         "data": []
     },
     {
         "name": "Chang International Circuit",
-        "slug_name": "Chang International Circuit",
+        "slug_name": "ChangInternationalCircuit",
         "data": []
     },
     {
@@ -493,7 +486,7 @@
     },
     {
         "name": "Charlotte Motor Speedway",
-        "slug_name": "Charlotte Motor Speedway",
+        "slug_name": "CharlotteMotorSpeedway",
         "data": []
     },
     {
@@ -513,7 +506,7 @@
     },
     {
         "name": "Chicagoland Speedway",
-        "slug_name": "Chicagoland Speedway",
+        "slug_name": "ChicagolandSpeedway",
         "data": []
     },
     {
@@ -523,32 +516,32 @@
     },
     {
         "name": "Circuit 9",
-        "slug_name": "Circuit 9",
+        "slug_name": "Circuit9",
         "data": []
     },
     {
         "name": "Circuit de Catalunya",
-        "slug_name": "Circuit de Catalunya",
+        "slug_name": "CircuitdeCatalunya",
         "data": []
     },
     {
         "name": "Circuit Gilles Villenueve",
-        "slug_name": "Circuit Gilles Villenueve",
+        "slug_name": "CircuitGillesVillenueve",
         "data": []
     },
     {
         "name": "Circuit of the Americas",
-        "slug_name": "Circuit of the Americas",
+        "slug_name": "CircuitoftheAmericas",
         "data": []
     },
     {
         "name": "Circuit of Wales",
-        "slug_name": "Circuit of Wales",
+        "slug_name": "CircuitofWales",
         "data": []
     },
     {
         "name": "Circuito dos Cristais",
-        "slug_name": "Circuito dos Cristais",
+        "slug_name": "CircuitodosCristais",
         "data": []
     },
     {
@@ -568,12 +561,12 @@
     },
     {
         "name": "Comodoro Rivadavia",
-        "slug_name": "Comodoro Rivadavia",
+        "slug_name": "ComodoroRivadavia",
         "data": []
     },
     {
         "name": "Continental Divide",
-        "slug_name": "Continental Divide",
+        "slug_name": "ContinentalDivide",
         "data": []
     },
     {
@@ -598,7 +591,7 @@
     },
     {
         "name": "Darlington Raceway",
-        "slug_name": "Darlington Raceway",
+        "slug_name": "DarlingtonRaceway",
         "data": []
     },
     {
@@ -608,7 +601,7 @@
     },
     {
         "name": "Detroit Belle Isle",
-        "slug_name": "Detroit Belle Isle",
+        "slug_name": "DetroitBelleIsle",
         "data": []
     },
     {
@@ -618,27 +611,27 @@
     },
     {
         "name": "Donington Park",
-        "slug_name": "Donington Park",
+        "slug_name": "DoningtonPark",
         "data": []
     },
     {
         "name": "Donnybrook Raceway",
-        "slug_name": "Donnybrook Raceway",
+        "slug_name": "DonnybrookRaceway",
         "data": []
     },
     {
         "name": "Donnybrooke Speedway",
-        "slug_name": "Donnybrooke Speedway",
+        "slug_name": "DonnybrookeSpeedway",
         "data": []
     },
     {
         "name": "Dover International Speedway",
-        "slug_name": "Dover International Speedway",
+        "slug_name": "DoverInternationalSpeedway",
         "data": []
     },
     {
         "name": "Dubai Autodrome",
-        "slug_name": "Dubai Autodrome",
+        "slug_name": "DubaiAutodrome",
         "data": []
     },
     {
@@ -653,22 +646,22 @@
     },
     {
         "name": "East London",
-        "slug_name": "East London",
+        "slug_name": "EastLondon",
         "data": []
     },
     {
         "name": "Eastern Creek",
-        "slug_name": "Eastern Creek",
+        "slug_name": "EasternCreek",
         "data": []
     },
     {
         "name": "El Pinar",
-        "slug_name": "El Pinar",
+        "slug_name": "ElPinar",
         "data": []
     },
     {
         "name": "El Villicum",
-        "slug_name": "El Villicum",
+        "slug_name": "ElVillicum",
         "data": []
     },
     {
@@ -683,12 +676,12 @@
     },
     {
         "name": "EuroSpeedway Lausitz",
-        "slug_name": "EuroSpeedway Lausitz",
+        "slug_name": "EuroSpeedwayLausitz",
         "data": []
     },
     {
         "name": "Everland Speedway",
-        "slug_name": "Everland Speedway",
+        "slug_name": "EverlandSpeedway",
         "data": []
     },
     {
@@ -698,7 +691,7 @@
     },
     {
         "name": "Fort Grozny Autodrom",
-        "slug_name": "Fort Grozny Autodrom",
+        "slug_name": "FortGroznyAutodrom",
         "data": []
     },
     {
@@ -718,12 +711,12 @@
     },
     {
         "name": "Fuji Speedway",
-        "slug_name": "Fuji Speedway",
+        "slug_name": "FujiSpeedway",
         "data": []
     },
     {
         "name": "Fundidora Park",
-        "slug_name": "Fundidora Park",
+        "slug_name": "FundidoraPark",
         "data": []
     },
     {
@@ -738,7 +731,7 @@
     },
     {
         "name": "GingerMan Raceway",
-        "slug_name": "GingerMan Raceway",
+        "slug_name": "GingerManRaceway",
         "data": []
     },
     {
@@ -748,12 +741,12 @@
     },
     {
         "name": "Goldenport Motor Park, Beijing",
-        "slug_name": "Goldenport Motor Park, Beijing",
+        "slug_name": "GoldenportMotorParkBeijing",
         "data": []
     },
     {
         "name": "Goldfields Raceway",
-        "slug_name": "Goldfields Raceway",
+        "slug_name": "GoldfieldsRaceway",
         "data": []
     },
     {
@@ -763,7 +756,7 @@
     },
     {
         "name": "Grand Prize of America",
-        "slug_name": "Grand Prize of America",
+        "slug_name": "GrandPrizeofAmerica",
         "data": []
     },
     {
@@ -778,7 +771,7 @@
     },
     {
         "name": "Halifax Citadel Hill",
-        "slug_name": "Halifax Citadel Hill",
+        "slug_name": "HalifaxCitadelHill",
         "data": []
     },
     {
@@ -793,17 +786,17 @@
     },
     {
         "name": "Hampton Downs",
-        "slug_name": "Hampton Downs",
+        "slug_name": "HamptonDowns",
         "data": []
     },
     {
         "name": "Hanoi Street Circuit",
-        "slug_name": "Hanoi Street Circuit",
+        "slug_name": "HanoiStreetCircuit",
         "data": []
     },
     {
         "name": "Heartland Park Topeka",
-        "slug_name": "Heartland Park Topeka",
+        "slug_name": "HeartlandParkTopeka",
         "data": []
     },
     {
@@ -813,17 +806,17 @@
     },
     {
         "name": "Hidden Valley Raceway",
-        "slug_name": "Hidden Valley Raceway",
+        "slug_name": "HiddenValleyRaceway",
         "data": []
     },
     {
         "name": "High Plains Raceway",
-        "slug_name": "High Plains Raceway",
+        "slug_name": "HighPlainsRaceway",
         "data": []
     },
     {
         "name": "Highlands Motorsport Park",
-        "slug_name": "Highlands Motorsport Park",
+        "slug_name": "HighlandsMotorsportPark",
         "data": []
     },
     {
@@ -838,17 +831,17 @@
     },
     {
         "name": "Homestead-Miami Speedway",
-        "slug_name": "Homestead-Miami Speedway",
+        "slug_name": "Homestead-MiamiSpeedway",
         "data": []
     },
     {
         "name": "Hong Kong",
-        "slug_name": "Hong Kong",
+        "slug_name": "HongKong",
         "data": []
     },
     {
         "name": "Houston Reliant Park",
-        "slug_name": "Houston Reliant Park",
+        "slug_name": "HoustonReliantPark",
         "data": []
     },
     {
@@ -858,12 +851,12 @@
     },
     {
         "name": "Iberia Circuit",
-        "slug_name": "Iberia Circuit",
+        "slug_name": "IberiaCircuit",
         "data": []
     },
     {
         "name": "Igora Drive",
-        "slug_name": "Igora Drive",
+        "slug_name": "IgoraDrive",
         "data": []
     },
     {
@@ -873,12 +866,12 @@
     },
     {
         "name": "Indianapolis Motor Speedway",
-        "slug_name": "Indianapolis Motor Speedway",
+        "slug_name": "IndianapolisMotorSpeedway",
         "data": []
     },
     {
         "name": "Infineon Raceway",
-        "slug_name": "Infineon Raceway",
+        "slug_name": "InfineonRaceway",
         "data": []
     },
     {
@@ -888,7 +881,7 @@
     },
     {
         "name": "Inje Speedium",
-        "slug_name": "Inje Speedium",
+        "slug_name": "InjeSpeedium",
         "data": []
     },
     {
@@ -903,22 +896,22 @@
     },
     {
         "name": "IOM Clypse Course",
-        "slug_name": "IOM Clypse Course",
+        "slug_name": "IOMClypseCourse",
         "data": []
     },
     {
         "name": "IOM Mountain Course",
-        "slug_name": "IOM Mountain Course",
+        "slug_name": "IOMMountainCourse",
         "data": []
     },
     {
         "name": "IOM St John's Course",
-        "slug_name": "IOM St John's Course",
+        "slug_name": "IOMStJohn'sCourse",
         "data": []
     },
     {
         "name": "Iowa Speedway",
-        "slug_name": "Iowa Speedway",
+        "slug_name": "IowaSpeedway",
         "data": []
     },
     {
@@ -928,12 +921,12 @@
     },
     {
         "name": "ISM Raceway",
-        "slug_name": "ISM Raceway",
+        "slug_name": "ISMRaceway",
         "data": []
     },
     {
         "name": "Istanbul Park",
-        "slug_name": "Istanbul Park",
+        "slug_name": "IstanbulPark",
         "data": []
     },
     {
@@ -943,7 +936,7 @@
     },
     {
         "name": "Jakarta National Monument",
-        "slug_name": "Jakarta National Monument",
+        "slug_name": "JakartaNationalMonument",
         "data": []
     },
     {
@@ -958,7 +951,7 @@
     },
     {
         "name": "Jiangsu Wantrack International",
-        "slug_name": "Jiangsu Wantrack International",
+        "slug_name": "JiangsuWantrackInternational",
         "data": []
     },
     {
@@ -978,12 +971,12 @@
     },
     {
         "name": "Kaeng Krachen",
-        "slug_name": "Kaeng Krachen",
+        "slug_name": "KaengKrachen",
         "data": []
     },
     {
         "name": "Kansas Speedway",
-        "slug_name": "Kansas Speedway",
+        "slug_name": "KansasSpeedway",
         "data": []
     },
     {
@@ -1008,7 +1001,7 @@
     },
     {
         "name": "Kentucky Speedway",
-        "slug_name": "Kentucky Speedway",
+        "slug_name": "KentuckySpeedway",
         "data": []
     },
     {
@@ -1023,7 +1016,7 @@
     },
     {
         "name": "Kinnekulle Ring",
-        "slug_name": "Kinnekulle Ring",
+        "slug_name": "KinnekulleRing",
         "data": []
     },
     {
@@ -1033,7 +1026,7 @@
     },
     {
         "name": "Korea International Circuit",
-        "slug_name": "Korea International Circuit",
+        "slug_name": "KoreaInternationalCircuit",
         "data": []
     },
     {
@@ -1043,12 +1036,12 @@
     },
     {
         "name": "Kuala Lumpur",
-        "slug_name": "Kuala Lumpur",
+        "slug_name": "KualaLumpur",
         "data": []
     },
     {
         "name": "Kuwait Motor Town",
-        "slug_name": "Kuwait Motor Town",
+        "slug_name": "KuwaitMotorTown",
         "data": []
     },
     {
@@ -1063,27 +1056,27 @@
     },
     {
         "name": "La Ch\u00e2tre",
-        "slug_name": "La Chtre",
+        "slug_name": "LaChtre",
         "data": []
     },
     {
         "name": "La Chutana",
-        "slug_name": "La Chutana",
+        "slug_name": "LaChutana",
         "data": []
     },
     {
         "name": "La Junta",
-        "slug_name": "La Junta",
+        "slug_name": "LaJunta",
         "data": []
     },
     {
         "name": "La Plata",
-        "slug_name": "La Plata",
+        "slug_name": "LaPlata",
         "data": []
     },
     {
         "name": "Laguna Seca",
-        "slug_name": "Laguna Seca",
+        "slug_name": "LagunaSeca",
         "data": []
     },
     {
@@ -1093,17 +1086,17 @@
     },
     {
         "name": "Langhorne Speedway",
-        "slug_name": "Langhorne Speedway",
+        "slug_name": "LanghorneSpeedway",
         "data": []
     },
     {
         "name": "Las Vegas Motor Speedway",
-        "slug_name": "Las Vegas Motor Speedway",
+        "slug_name": "LasVegasMotorSpeedway",
         "data": []
     },
     {
         "name": "Las Vizcachas",
-        "slug_name": "Las Vizcachas",
+        "slug_name": "LasVizcachas",
         "data": []
     },
     {
@@ -1113,7 +1106,7 @@
     },
     {
         "name": "Le Mans",
-        "slug_name": "Le Mans",
+        "slug_name": "LeMans",
         "data": []
     },
     {
@@ -1123,7 +1116,7 @@
     },
     {
         "name": "Levels Raceway",
-        "slug_name": "Levels Raceway",
+        "slug_name": "LevelsRaceway",
         "data": []
     },
     {
@@ -1133,17 +1126,17 @@
     },
     {
         "name": "Lihpao International Circuit",
-        "slug_name": "Lihpao International Circuit",
+        "slug_name": "LihpaoInternationalCircuit",
         "data": []
     },
     {
         "name": "Lime Rock Park",
-        "slug_name": "Lime Rock Park",
+        "slug_name": "LimeRockPark",
         "data": []
     },
     {
         "name": "London ExCeL",
-        "slug_name": "London ExCeL",
+        "slug_name": "LondonExCeL",
         "data": []
     },
     {
@@ -1153,17 +1146,17 @@
     },
     {
         "name": "Long Beach",
-        "slug_name": "Long Beach",
+        "slug_name": "LongBeach",
         "data": []
     },
     {
         "name": "Losail International Circuit",
-        "slug_name": "Losail International Circuit",
+        "slug_name": "LosailInternationalCircuit",
         "data": []
     },
     {
         "name": "Lowe's Motor Speedway",
-        "slug_name": "Lowe's Motor Speedway",
+        "slug_name": "Lowe'sMotorSpeedway",
         "data": []
     },
     {
@@ -1173,7 +1166,7 @@
     },
     {
         "name": "Macau Guia",
-        "slug_name": "Macau Guia",
+        "slug_name": "MacauGuia",
         "data": []
     },
     {
@@ -1188,7 +1181,7 @@
     },
     {
         "name": "Maison Blanche Circuit",
-        "slug_name": "Maison Blanche Circuit",
+        "slug_name": "MaisonBlancheCircuit",
         "data": []
     },
     {
@@ -1198,7 +1191,7 @@
     },
     {
         "name": "Mallory Park",
-        "slug_name": "Mallory Park",
+        "slug_name": "MalloryPark",
         "data": []
     },
     {
@@ -1213,7 +1206,7 @@
     },
     {
         "name": "Mantorp Park",
-        "slug_name": "Mantorp Park",
+        "slug_name": "MantorpPark",
         "data": []
     },
     {
@@ -1223,17 +1216,17 @@
     },
     {
         "name": "Martinsville Speedway",
-        "slug_name": "Martinsville Speedway",
+        "slug_name": "MartinsvilleSpeedway",
         "data": []
     },
     {
         "name": "Mas du Clos",
-        "slug_name": "Mas du Clos",
+        "slug_name": "MasduClos",
         "data": []
     },
     {
         "name": "Mazda Raceway",
-        "slug_name": "Mazda Raceway",
+        "slug_name": "MazdaRaceway",
         "data": []
     },
     {
@@ -1248,7 +1241,7 @@
     },
     {
         "name": "Mexico City",
-        "slug_name": "Mexico City",
+        "slug_name": "MexicoCity",
         "data": []
     },
     {
@@ -1258,7 +1251,7 @@
     },
     {
         "name": "Michigan International Speedway",
-        "slug_name": "Michigan International Speedway",
+        "slug_name": "MichiganInternationalSpeedway",
         "data": []
     },
     {
@@ -1268,22 +1261,22 @@
     },
     {
         "name": "Mike Pero Motorsports Park",
-        "slug_name": "Mike Pero Motorsports Park",
+        "slug_name": "MikePeroMotorsportsPark",
         "data": []
     },
     {
         "name": "Miller Motorsports Park",
-        "slug_name": "Miller Motorsports Park",
+        "slug_name": "MillerMotorsportsPark",
         "data": []
     },
     {
         "name": "Milwaukee Mile",
-        "slug_name": "Milwaukee Mile",
+        "slug_name": "MilwaukeeMile",
         "data": []
     },
     {
         "name": "Mine Circuit",
-        "slug_name": "Mine Circuit",
+        "slug_name": "MineCircuit",
         "data": []
     },
     {
@@ -1293,7 +1286,7 @@
     },
     {
         "name": "Mondello Park",
-        "slug_name": "Mondello Park",
+        "slug_name": "MondelloPark",
         "data": []
     },
     {
@@ -1303,7 +1296,7 @@
     },
     {
         "name": "Monte Carlo",
-        "slug_name": "Monte Carlo",
+        "slug_name": "MonteCarlo",
         "data": []
     },
     {
@@ -1313,7 +1306,7 @@
     },
     {
         "name": "Montreal ePrix",
-        "slug_name": "Montreal ePrix",
+        "slug_name": "MontrealePrix",
         "data": []
     },
     {
@@ -1323,12 +1316,12 @@
     },
     {
         "name": "Morgan Park Raceway",
-        "slug_name": "Morgan Park Raceway",
+        "slug_name": "MorganParkRaceway",
         "data": []
     },
     {
         "name": "Moroso Motorsports Park",
-        "slug_name": "Moroso Motorsports Park",
+        "slug_name": "MorosoMotorsportsPark",
         "data": []
     },
     {
@@ -1338,12 +1331,12 @@
     },
     {
         "name": "Moscow Raceway",
-        "slug_name": "Moscow Raceway",
+        "slug_name": "MoscowRaceway",
         "data": []
     },
     {
         "name": "Mosport Park",
-        "slug_name": "Mosport Park",
+        "slug_name": "MosportPark",
         "data": []
     },
     {
@@ -1358,12 +1351,12 @@
     },
     {
         "name": "Motorland Arag\u00f3n",
-        "slug_name": "Motorland Aragn",
+        "slug_name": "MotorlandAragn",
         "data": []
     },
     {
         "name": "MotorPark Romania",
-        "slug_name": "MotorPark Romania",
+        "slug_name": "MotorParkRomania",
         "data": []
     },
     {
@@ -1378,17 +1371,17 @@
     },
     {
         "name": "Nassau Arawak Cay",
-        "slug_name": "Nassau Arawak Cay",
+        "slug_name": "NassauArawakCay",
         "data": []
     },
     {
         "name": "Nassau Oakes Field",
-        "slug_name": "Nassau Oakes Field",
+        "slug_name": "NassauOakesField",
         "data": []
     },
     {
         "name": "Nassau Windsor Field",
-        "slug_name": "Nassau Windsor Field",
+        "slug_name": "NassauWindsorField",
         "data": []
     },
     {
@@ -1398,12 +1391,12 @@
     },
     {
         "name": "NCM Motorsports Park",
-        "slug_name": "NCM Motorsports Park",
+        "slug_name": "NCMMotorsportsPark",
         "data": []
     },
     {
         "name": "Nelson Ledges",
-        "slug_name": "Nelson Ledges",
+        "slug_name": "NelsonLedges",
         "data": []
     },
     {
@@ -1413,12 +1406,12 @@
     },
     {
         "name": "New Hampshire Motor Speedway",
-        "slug_name": "New Hampshire Motor Speedway",
+        "slug_name": "NewHampshireMotorSpeedway",
         "data": []
     },
     {
         "name": "New Jersey Motorsports Park",
-        "slug_name": "New Jersey Motorsports Park",
+        "slug_name": "NewJerseyMotorsportsPark",
         "data": []
     },
     {
@@ -1428,17 +1421,17 @@
     },
     {
         "name": "Niagara Falls",
-        "slug_name": "Niagara Falls",
+        "slug_name": "NiagaraFalls",
         "data": []
     },
     {
         "name": "Ningbo International Speedway",
-        "slug_name": "Ningbo International Speedway",
+        "slug_name": "NingboInternationalSpeedway",
         "data": []
     },
     {
         "name": "Nishi-Nihon Circuit",
-        "slug_name": "Nishi-Nihon Circuit",
+        "slug_name": "Nishi-NihonCircuit",
         "data": []
     },
     {
@@ -1448,7 +1441,7 @@
     },
     {
         "name": "NOLA Motorsports Park",
-        "slug_name": "NOLA Motorsports Park",
+        "slug_name": "NOLAMotorsportsPark",
         "data": []
     },
     {
@@ -1473,12 +1466,12 @@
     },
     {
         "name": "Oliver's Mount",
-        "slug_name": "Oliver's Mount",
+        "slug_name": "Oliver'sMount",
         "data": []
     },
     {
         "name": "Oran Park",
-        "slug_name": "Oran Park",
+        "slug_name": "OranPark",
         "data": []
     },
     {
@@ -1498,12 +1491,12 @@
     },
     {
         "name": "Oulton Park",
-        "slug_name": "Oulton Park",
+        "slug_name": "OultonPark",
         "data": []
     },
     {
         "name": "Pacific Raceways",
-        "slug_name": "Pacific Raceways",
+        "slug_name": "PacificRaceways",
         "data": []
     },
     {
@@ -1513,27 +1506,27 @@
     },
     {
         "name": "Palm Beach International Raceway",
-        "slug_name": "Palm Beach International Raceway",
+        "slug_name": "PalmBeachInternationalRaceway",
         "data": []
     },
     {
         "name": "Palmer Motorsports Park",
-        "slug_name": "Palmer Motorsports Park",
+        "slug_name": "PalmerMotorsportsPark",
         "data": []
     },
     {
         "name": "Pannonia Ring",
-        "slug_name": "Pannonia Ring",
+        "slug_name": "PannoniaRing",
         "data": []
     },
     {
         "name": "Paramount Ranch",
-        "slug_name": "Paramount Ranch",
+        "slug_name": "ParamountRanch",
         "data": []
     },
     {
         "name": "Parcmotor Castellol\u00ed",
-        "slug_name": "Parcmotor Castellol",
+        "slug_name": "ParcmotorCastellol",
         "data": []
     },
     {
@@ -1543,12 +1536,12 @@
     },
     {
         "name": "P\u00e4rnu Ring",
-        "slug_name": "Prnu Ring",
+        "slug_name": "PrnuRing",
         "data": []
     },
     {
         "name": "Parque La Pedrera",
-        "slug_name": "Parque La Pedrera",
+        "slug_name": "ParqueLaPedrera",
         "data": []
     },
     {
@@ -1558,7 +1551,7 @@
     },
     {
         "name": "Paul Ricard",
-        "slug_name": "Paul Ricard",
+        "slug_name": "PaulRicard",
         "data": []
     },
     {
@@ -1578,32 +1571,32 @@
     },
     {
         "name": "Phakisa Freeway",
-        "slug_name": "Phakisa Freeway",
+        "slug_name": "PhakisaFreeway",
         "data": []
     },
     {
         "name": "Phillip Island",
-        "slug_name": "Phillip Island",
+        "slug_name": "PhillipIsland",
         "data": []
     },
     {
         "name": "Phoenix International Raceway",
-        "slug_name": "Phoenix International Raceway",
+        "slug_name": "PhoenixInternationalRaceway",
         "data": []
     },
     {
         "name": "Phoenix Park",
-        "slug_name": "Phoenix Park",
+        "slug_name": "PhoenixPark",
         "data": []
     },
     {
         "name": "Pocono Raceway",
-        "slug_name": "Pocono Raceway",
+        "slug_name": "PoconoRaceway",
         "data": []
     },
     {
         "name": "Portland International Raceway",
-        "slug_name": "Portland International Raceway",
+        "slug_name": "PortlandInternationalRaceway",
         "data": []
     },
     {
@@ -1618,12 +1611,12 @@
     },
     {
         "name": "Potrero de los Funes",
-        "slug_name": "Potrero de los Funes",
+        "slug_name": "PotrerodelosFunes",
         "data": []
     },
     {
         "name": "Powerbuilt Tools Raceway",
-        "slug_name": "Powerbuilt Tools Raceway",
+        "slug_name": "PowerbuiltToolsRaceway",
         "data": []
     },
     {
@@ -1633,7 +1626,7 @@
     },
     {
         "name": "Preluk - Opatija",
-        "slug_name": "Preluk - Opatija",
+        "slug_name": "Preluk-Opatija",
         "data": []
     },
     {
@@ -1643,17 +1636,17 @@
     },
     {
         "name": "Pukekohe Park",
-        "slug_name": "Pukekohe Park",
+        "slug_name": "PukekohePark",
         "data": []
     },
     {
         "name": "Punta del Este",
-        "slug_name": "Punta del Este",
+        "slug_name": "PuntadelEste",
         "data": []
     },
     {
         "name": "Putnam Park",
-        "slug_name": "Putnam Park",
+        "slug_name": "PutnamPark",
         "data": []
     },
     {
@@ -1663,7 +1656,7 @@
     },
     {
         "name": "Queensland Raceway",
-        "slug_name": "Queensland Raceway",
+        "slug_name": "QueenslandRaceway",
         "data": []
     },
     {
@@ -1673,17 +1666,17 @@
     },
     {
         "name": "Red Bull Ring",
-        "slug_name": "Red Bull Ring",
+        "slug_name": "RedBullRing",
         "data": []
     },
     {
         "name": "Red Star Raceway",
-        "slug_name": "Red Star Raceway",
+        "slug_name": "RedStarRaceway",
         "data": []
     },
     {
         "name": "Reem International Circuit",
-        "slug_name": "Reem International Circuit",
+        "slug_name": "ReemInternationalCircuit",
         "data": []
     },
     {
@@ -1693,7 +1686,7 @@
     },
     {
         "name": "Ribeir\u00e3o Preto",
-        "slug_name": "Ribeiro Preto",
+        "slug_name": "RibeiroPreto",
         "data": []
     },
     {
@@ -1703,12 +1696,12 @@
     },
     {
         "name": "Rijeka - Grobnik",
-        "slug_name": "Rijeka - Grobnik",
+        "slug_name": "Rijeka-Grobnik",
         "data": []
     },
     {
         "name": "Ring Knutstorp",
-        "slug_name": "Ring Knutstorp",
+        "slug_name": "RingKnutstorp",
         "data": []
     },
     {
@@ -1718,12 +1711,12 @@
     },
     {
         "name": "Road America",
-        "slug_name": "Road America",
+        "slug_name": "RoadAmerica",
         "data": []
     },
     {
         "name": "Road Atlanta",
-        "slug_name": "Road Atlanta",
+        "slug_name": "RoadAtlanta",
         "data": []
     },
     {
@@ -1733,7 +1726,7 @@
     },
     {
         "name": "Roebling Road",
-        "slug_name": "Roebling Road",
+        "slug_name": "RoeblingRoad",
         "data": []
     },
     {
@@ -1743,7 +1736,7 @@
     },
     {
         "name": "Roosevelt Raceway",
-        "slug_name": "Roosevelt Raceway",
+        "slug_name": "RooseveltRaceway",
         "data": []
     },
     {
@@ -1758,7 +1751,7 @@
     },
     {
         "name": "Ruapuna Park",
-        "slug_name": "Ruapuna Park",
+        "slug_name": "RuapunaPark",
         "data": []
     },
     {
@@ -1788,17 +1781,17 @@
     },
     {
         "name": "San Carlos",
-        "slug_name": "San Carlos",
+        "slug_name": "SanCarlos",
         "data": []
     },
     {
         "name": "San Luis, Rosendo Hern\u00e1ndez",
-        "slug_name": "San Luis, Rosendo Hernndez",
+        "slug_name": "SanLuisRosendoHernndez",
         "data": []
     },
     {
         "name": "San Mart\u00edn, Jorge \u00c1ngel Pena",
-        "slug_name": "San Martn, Jorge ngel Pena",
+        "slug_name": "SanMartnJorgengelPena",
         "data": []
     },
     {
@@ -1808,12 +1801,12 @@
     },
     {
         "name": "Sandown Raceway",
-        "slug_name": "Sandown Raceway",
+        "slug_name": "SandownRaceway",
         "data": []
     },
     {
         "name": "Santa Cruz do Sul",
-        "slug_name": "Santa Cruz do Sul",
+        "slug_name": "SantaCruzdoSul",
         "data": []
     },
     {
@@ -1828,7 +1821,7 @@
     },
     {
         "name": "Sauga Kolmnurk",
-        "slug_name": "Sauga Kolmnurk",
+        "slug_name": "SaugaKolmnurk",
         "data": []
     },
     {
@@ -1838,12 +1831,12 @@
     },
     {
         "name": "Sears Point Raceway",
-        "slug_name": "Sears Point Raceway",
+        "slug_name": "SearsPointRaceway",
         "data": []
     },
     {
         "name": "Seattle International Raceway",
-        "slug_name": "Seattle International Raceway",
+        "slug_name": "SeattleInternationalRaceway",
         "data": []
     },
     {
@@ -1863,7 +1856,7 @@
     },
     {
         "name": "Seoul Street Circuit",
-        "slug_name": "Seoul Street Circuit",
+        "slug_name": "SeoulStreetCircuit",
         "data": []
     },
     {
@@ -1878,17 +1871,17 @@
     },
     {
         "name": "Shanghai International Circuit",
-        "slug_name": "Shanghai International Circuit",
+        "slug_name": "ShanghaiInternationalCircuit",
         "data": []
     },
     {
         "name": "Shanghai Tianma Circuit",
-        "slug_name": "Shanghai Tianma Circuit",
+        "slug_name": "ShanghaiTianmaCircuit",
         "data": []
     },
     {
         "name": "Shougang Motorsport Valley",
-        "slug_name": "Shougang Motorsport Valley",
+        "slug_name": "ShougangMotorsportValley",
         "data": []
     },
     {
@@ -1898,7 +1891,7 @@
     },
     {
         "name": "Singapore Marina Bay",
-        "slug_name": "Singapore Marina Bay",
+        "slug_name": "SingaporeMarinaBay",
         "data": []
     },
     {
@@ -1918,7 +1911,7 @@
     },
     {
         "name": "Smolensk Ring",
-        "slug_name": "Smolensk Ring",
+        "slug_name": "SmolenskRing",
         "data": []
     },
     {
@@ -1943,7 +1936,7 @@
     },
     {
         "name": "Sonoma Raceway",
-        "slug_name": "Sonoma Raceway",
+        "slug_name": "SonomaRaceway",
         "data": []
     },
     {
@@ -1953,12 +1946,12 @@
     },
     {
         "name": "St. Jovite",
-        "slug_name": "St. Jovite",
+        "slug_name": "St.Jovite",
         "data": []
     },
     {
         "name": "St. Petersburg",
-        "slug_name": "St. Petersburg",
+        "slug_name": "St.Petersburg",
         "data": []
     },
     {
@@ -1968,7 +1961,7 @@
     },
     {
         "name": "Subic Bay",
-        "slug_name": "Subic Bay",
+        "slug_name": "SubicBay",
         "data": []
     },
     {
@@ -1978,12 +1971,12 @@
     },
     {
         "name": "Summit Point",
-        "slug_name": "Summit Point",
+        "slug_name": "SummitPoint",
         "data": []
     },
     {
         "name": "Surfers Paradise",
-        "slug_name": "Surfers Paradise",
+        "slug_name": "SurfersParadise",
         "data": []
     },
     {
@@ -1993,17 +1986,17 @@
     },
     {
         "name": "Sydney Motorsport Park",
-        "slug_name": "Sydney Motorsport Park",
+        "slug_name": "SydneyMotorsportPark",
         "data": []
     },
     {
         "name": "Sydney Olympic Park",
-        "slug_name": "Sydney Olympic Park",
+        "slug_name": "SydneyOlympicPark",
         "data": []
     },
     {
         "name": "Symmons Plains",
-        "slug_name": "Symmons Plains",
+        "slug_name": "SymmonsPlains",
         "data": []
     },
     {
@@ -2013,12 +2006,12 @@
     },
     {
         "name": "Taebaek Racing Park",
-        "slug_name": "Taebaek Racing Park",
+        "slug_name": "TaebaekRacingPark",
         "data": []
     },
     {
         "name": "Talladega Superspeedway",
-        "slug_name": "Talladega Superspeedway",
+        "slug_name": "TalladegaSuperspeedway",
         "data": []
     },
     {
@@ -2033,27 +2026,27 @@
     },
     {
         "name": "Teretonga Park",
-        "slug_name": "Teretonga Park",
+        "slug_name": "TeretongaPark",
         "data": []
     },
     {
         "name": "Termas de R\u00edo Hondo",
-        "slug_name": "Termas de Ro Hondo",
+        "slug_name": "TermasdeRoHondo",
         "data": []
     },
     {
         "name": "Texas Motor Speedway",
-        "slug_name": "Texas Motor Speedway",
+        "slug_name": "TexasMotorSpeedway",
         "data": []
     },
     {
         "name": "Texas World Speedway",
-        "slug_name": "Texas World Speedway",
+        "slug_name": "TexasWorldSpeedway",
         "data": []
     },
     {
         "name": "The Bend Motorsport Park",
-        "slug_name": "The Bend Motorsport Park",
+        "slug_name": "TheBendMotorsportPark",
         "data": []
     },
     {
@@ -2063,17 +2056,17 @@
     },
     {
         "name": "Thunderhill Raceway Park",
-        "slug_name": "Thunderhill Raceway Park",
+        "slug_name": "ThunderhillRacewayPark",
         "data": []
     },
     {
         "name": "TI Aida",
-        "slug_name": "TI Aida",
+        "slug_name": "TIAida",
         "data": []
     },
     {
         "name": "Tierp Arena",
-        "slug_name": "Tierp Arena",
+        "slug_name": "TierpArena",
         "data": []
     },
     {
@@ -2083,12 +2076,12 @@
     },
     {
         "name": "Tokachi Speedway",
-        "slug_name": "Tokachi Speedway",
+        "slug_name": "TokachiSpeedway",
         "data": []
     },
     {
         "name": "Toronto, Exhibition Place",
-        "slug_name": "Toronto, Exhibition Place",
+        "slug_name": "TorontoExhibitionPlace",
         "data": []
     },
     {
@@ -2098,22 +2091,22 @@
     },
     {
         "name": "Trac M\u00f4n",
-        "slug_name": "Trac Mn",
+        "slug_name": "TracMn",
         "data": []
     },
     {
         "name": "Transilvania Motor Ring",
-        "slug_name": "Transilvania Motor Ring",
+        "slug_name": "TransilvaniaMotorRing",
         "data": []
     },
     {
         "name": "Trenton Speedway",
-        "slug_name": "Trenton Speedway",
+        "slug_name": "TrentonSpeedway",
         "data": []
     },
     {
         "name": "Tri\u00f3valo Bernardo Obreg\u00f3n",
-        "slug_name": "Trivalo Bernardo Obregn",
+        "slug_name": "TrivaloBernardoObregn",
         "data": []
     },
     {
@@ -2128,42 +2121,42 @@
     },
     {
         "name": "TT Circuit Assen",
-        "slug_name": "TT Circuit Assen",
+        "slug_name": "TTCircuitAssen",
         "data": []
     },
     {
         "name": "Twin-Ring Motegi",
-        "slug_name": "Twin-Ring Motegi",
+        "slug_name": "Twin-RingMotegi",
         "data": []
     },
     {
         "name": "T\u0177 Croes",
-        "slug_name": "T Croes",
+        "slug_name": "TCroes",
         "data": []
     },
     {
         "name": "Utah Motorsports Campus",
-        "slug_name": "Utah Motorsports Campus",
+        "slug_name": "UtahMotorsportsCampus",
         "data": []
     },
     {
         "name": "V1 Auto World Tianjin",
-        "slug_name": "V1 Auto World Tianjin",
+        "slug_name": "V1AutoWorldTianjin",
         "data": []
     },
     {
         "name": "Val de Vienne",
-        "slug_name": "Val de Vienne",
+        "slug_name": "ValdeVienne",
         "data": []
     },
     {
         "name": "Valencia (Cheste/Ricardo Tormo)",
-        "slug_name": "Valencia (Cheste/Ricardo Tormo)",
+        "slug_name": "Valencia(Cheste/RicardoTormo)",
         "data": []
     },
     {
         "name": "Val\u00e8ncia Street Circuit",
-        "slug_name": "Valncia Street Circuit",
+        "slug_name": "ValnciaStreetCircuit",
         "data": []
     },
     {
@@ -2183,7 +2176,7 @@
     },
     {
         "name": "Velo Citt\u00e0",
-        "slug_name": "Velo Citt",
+        "slug_name": "VeloCitt",
         "data": []
     },
     {
@@ -2193,22 +2186,22 @@
     },
     {
         "name": "Vila Real",
-        "slug_name": "Vila Real",
+        "slug_name": "VilaReal",
         "data": []
     },
     {
         "name": "Virgina International Raceway",
-        "slug_name": "Virgina International Raceway",
+        "slug_name": "VirginaInternationalRaceway",
         "data": []
     },
     {
         "name": "Wakefield Park",
-        "slug_name": "Wakefield Park",
+        "slug_name": "WakefieldPark",
         "data": []
     },
     {
         "name": "Walt Disney World Speedway",
-        "slug_name": "Walt Disney World Speedway",
+        "slug_name": "WaltDisneyWorldSpeedway",
         "data": []
     },
     {
@@ -2218,12 +2211,12 @@
     },
     {
         "name": "Watkins Glen",
-        "slug_name": "Watkins Glen",
+        "slug_name": "WatkinsGlen",
         "data": []
     },
     {
         "name": "West Delta Park Raceway",
-        "slug_name": "West Delta Park Raceway",
+        "slug_name": "WestDeltaParkRaceway",
         "data": []
     },
     {
@@ -2233,7 +2226,7 @@
     },
     {
         "name": "Willow Springs",
-        "slug_name": "Willow Springs",
+        "slug_name": "WillowSprings",
         "data": []
     },
     {
@@ -2248,7 +2241,7 @@
     },
     {
         "name": "World Wide Technology Raceway at Gateway",
-        "slug_name": "World Wide Technology Raceway at Gateway",
+        "slug_name": "WorldWideTechnologyRacewayatGateway",
         "data": []
     },
     {
@@ -2268,7 +2261,7 @@
     },
     {
         "name": "Yas Marina",
-        "slug_name": "Yas Marina",
+        "slug_name": "YasMarina",
         "data": []
     },
     {
@@ -2283,7 +2276,7 @@
     },
     {
         "name": "Zhejiang Circuit",
-        "slug_name": "Zhejiang Circuit",
+        "slug_name": "ZhejiangCircuit",
         "data": []
     },
     {

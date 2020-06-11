@@ -9,12 +9,10 @@ tracks = []
 
 for el in soup.find_all("div", {"class": "az-item"}):
     tracks.append(el.get_text().strip())
-slug_tracks = []
 tracks_dict = []
 for i in tracks:
     if 'See More' not in i:
-        tracks_dict.append({'name': i, 'slug_name': i.encode('ascii', 'ignore').decode("utf-8"), 'data': []})
-        slug_tracks.append(i.encode('ascii', 'ignore').decode("utf-8"))
+        tracks_dict.append({'name': i, 'slug_name': i.encode('ascii', 'ignore').decode("utf-8").replace(" ", "").replace(",", ""), 'data': []})
 
 with open("track.json", "r") as jsonFile:
     data_json = json.load(jsonFile)
