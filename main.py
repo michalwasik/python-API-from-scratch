@@ -69,7 +69,7 @@ class HTTPServer(TCPServer):
     }
 
     def send_response(self, response_line, response_headers, blank_line, response_body):
-        response = f'{response_line}{response_headers}\r\n{response_body}'
+        response = f'{response_line}{response_headers}{blank_line}{response_body}'
         return str.encode(response)
 
 
@@ -94,14 +94,29 @@ class HTTPServer(TCPServer):
             headers += f"{h}: {self.headers[h]}\r\n"
         return headers
 
+    def load_templates(self, file):
+        return open(f'templates/{file}').read()
+
+    def lines_format(self, data):
+        lines = []
+        for user in data:
+            lines.append(
+                f'<tr>'
+                f'<td>{user["driver"]}</td>'
+                f'<td>{user["car"]}</td>'
+                f'<td>{user["time"]}</td>'
+                f'<td>{user["added_time"]}</td>'
+                f'</tr>'
+            )
+        return ''.join(lines)
     def handle_request(self, request):
         request = HttpRequest(request)
         if request.metod == "GET":
-            response = self.handle_GET(self, request)
+            response = self.handle_GET(request)
         elif request.metod == "POST":
-            response = self.handle_POST(self, request)
+            response = self.handle_POST(request)
         else:
-            response = self.HTTP_501_handler(self, request)
+            response = self.HTTP_501_handler(request)
         return response
 
     def HTTP_501_handler(self, request):
@@ -109,7 +124,7 @@ class HTTPServer(TCPServer):
         response_headers = self.response_headers()
         blank_line = '\r\n'
         response_body = '<h1>501 Not Implemented</h1>'
-        return self.send_response(self, response_line, response_headers, blank_line, response_body)
+        return self.send_response(response_line, response_headers, blank_line, response_body)
 
 
     def handle_GET(self, request):
@@ -118,74 +133,29 @@ class HTTPServer(TCPServer):
             response_line = self.response_line(status_code=200)
             response_headers = self.response_headers()
             blank_line = "\r\n"
-
+            requested_track ={}
             with open('track.json', "r") as jsonFile:
                 for track in json.load(jsonFile):
                     if track['slug_name'].lower() == track_name.lower():
                         requested_track = track
                         break
                 else:
-                    response_body = f"""<html>
-                    <body>
-                    <h1>Brak podanego toru</h1>
-                    </body>
-                    </html>"""
-            if 'data' in requested_track and requested_track['data'] != []:
-                lines_driver = '/n'.join(f'<a>{i["driver"]}</a>' for i in requested_track['data'])
-                lines_car = '/n'.join(f'<a>{i["car"]}</a>' for i in requested_track['data'])
-                lines_time = '/n'.join(f'<a>{i["time"]}</a>' for i in requested_track['data'])
-                lines_added = '/n'.join(f'<a>{i["added_time"]}</a>' for i in requested_track['data'])
+                    response_body = self.load_templates('track_not_found.html')
 
-                response_body = f"""
-            <html>
-                <body>
-                    <h1>{requested_track['name']}</h1><br>
-                           <form target="_self" method="post">
-  <label for="driver">Your name:</label><br>
-  <input type="text" id="driver" name="driver"><br>
-  <label for="car">Car:</label><br>
-  <input type="text" id="car" name="car"><br>   
-  <label for ="time">Your time:</label><br>
-  <input type ="text" id="time" name = "time"><br>
-  <input type="submit" value="Submit">
-                            </form>
-                <table style="width:100%">
-<table style="width:100%">
-  <tr>
-    <th>Driver</th>
-    <th>Car</th> 
-    <th>Lap Time</th>
-    <th>Added</th>
-  </tr>
-  <tr>
-    <td>{lines_driver}</td>
-    <td>{lines_car}</td>
-    <td>{lines_time}</td>
-    <td>{lines_added}</td>
-  </tr>
-</table>
-                </body>
-            </html>
-        """
+            if 'data' in requested_track and requested_track['data'] != []:
+                lines_string = self.lines_format(requested_track['data'])
+                template = self.load_templates('track_laptime.html')
+                track_site = template.format(
+                    track_name=requested_track['name'],
+                    lines=lines_string
+                )
+
+                response_body = track_site
             elif 'name' in requested_track:
-                response_body = f"""
-            <html>
-                <body>
-                    <h1>{requested_track['name']}</h1>
-                    <a>None laptimes were added</a><br><br><br>
-                    <a>Add your time:</a><br><br>
-                           <form target="_self" method="post">
-  <label for="driver">Your name:</label><br>
-  <input type="text" id="driver" name="driver"><br>
-  <label for="car">Car:</label><br>
-  <input type="text" id="car" name="car"><br>
-  <label for ="time">Your time:</label><br>
-  <input type ="text" id="time" name = "time"><br>
-  <input type="submit" value="Submit">
-                </body>
-            </html>
-"""
-            return self.send_response(self, response_line, response_headers, blank_line, response_body)
+                template = self.load_templates('empty_track.html')
+                track_site = template.format(track_name=requested_track['name'])
+                response_body = track_site
+            return self.send_response(response_line, response_headers, blank_line, response_body)
         else:
             response_line = self.response_line(status_code=200)
             response_headers = self.response_headers()
@@ -200,33 +170,45 @@ class HTTPServer(TCPServer):
                 </body>
             </html>
                             """
-            return self.send_response(self, response_line, response_headers, blank_line, response_body)
+            return self.send_response(response_line, response_headers, blank_line, response_body)
 
     def handle_POST(self, request):
         add_dict = request.data
         track_name = request.uri.split('/')[1]
-        dict['added_time'] = datetime.now().__str__()
+        add_dict['added_time'] = datetime.now().__str__()
 
         if (
                 isinstance(track_name, str) and
-                isinstance(dict['driver'], str) and
-                isinstance(dict['car'], str) and
-                isinstance(dict['time'], (float, int))
+                isinstance(add_dict['driver'], str) and
+                isinstance(add_dict['car'], str)
+                #isinstance(add_dict['time'], (float, int))
             ):
 
+            requested_data = {}
+            requested_name = ''
             with open("track.json", "r") as jsonFile:
                 data_json = json.load(jsonFile)
             for tracks in data_json:
                 if tracks['slug_name'] == track_name:
                     tracks['data'].append(add_dict)
+                    requested_data = tracks['data']
+                    requested_name = tracks['name']
                     break
+
             with open("track.json", "w") as jsonFile:
                 json.dump(data_json, jsonFile, indent=4)
 
-                response_line = self.response_line(status_code=200)
-                response_headers = self.response_headers()
-                blank_line = "\r\n"
-                response_body = ""
+            response_line = self.response_line(status_code=200)
+            response_headers = self.response_headers()
+            blank_line = "\r\n"
+            lines_string = self.lines_format(requested_data)
+            template = self.load_templates('track_laptime.html')
+            track_site = template.format(
+                track_name=requested_name,
+                lines=lines_string
+            )
+
+            response_body = track_site
         else:
             response_line = self.response_line(status_code=400)
             response_headers = self.response_headers()
@@ -236,7 +218,7 @@ class HTTPServer(TCPServer):
                 <body>400 Bad Request</body>
             </html>
             """
-            return self.send_response(self, response_line, response_headers, blank_line, response_body)
+        return self.send_response(response_line, response_headers, blank_line, response_body)
 
 
 if __name__ == '__main__':
