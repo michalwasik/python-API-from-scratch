@@ -66,10 +66,9 @@ class HTTPServer(TCPServer):
         501: 'Not Implemented',
     }
 
-    def send_response(self, response_line, response_headers, blank_line, response_body):
-        response = f'{response_line}{response_headers}{blank_line}{response_body}'
+    def send_response(self, response_line, response_headers, response_body):
+        response = f'{response_line}{response_headers}\r\n{response_body}'
         return str.encode(response)
-
 
     def response_line(self, status_code):
         """Returns response line"""
@@ -82,17 +81,14 @@ class HTTPServer(TCPServer):
         extra headers for the current response
         """
         headers_copy = self.headers.copy()  # make a local copy of headers
-
         if extra_headers:
             headers_copy.update(extra_headers)
-
         headers = ""
-
         for h in self.headers:
             headers += f"{h}: {self.headers[h]}\r\n"
         return headers
 
-    def load_templates(self, file):
+    def load_template(self, file):
         return open(f'templates/{file}').read()
 
     def lines_format(self, data):
@@ -100,10 +96,10 @@ class HTTPServer(TCPServer):
         for user in data:
             lines.append(
                 f'<tr>'
-                f'<td>{user["driver"]}</td>'
-                f'<td>{user["car"]}</td>'
-                f'<td>{user["time"]}</td>'
-                f'<td>{user["added_time"]}</td>'
+                f'<td class="a">{user["driver"]}</td>'
+                f'<td class="a">{user["car"]}</td>'
+                f'<td class="a">{user["time"]}</td>'
+                f'<td class="a">{user["added_time"]}</td>'
                 f'</tr>'
             )
         return ''.join(lines)
@@ -112,72 +108,72 @@ class HTTPServer(TCPServer):
     def isfloat(data):
         try:
             float(data)
-            return True
         except ValueError:
             return False
+        else:
+            return True
 
     def handle_request(self, request):
         request = HttpRequest(request)
         if request.metod == "GET":
-            response = self.handle_GET(request)
+            response = self.handle_get(request)
         elif request.metod == "POST":
-            response = self.handle_POST(request)
+            response = self.handle_post(request)
         else:
-            response = self.HTTP_501_handler(request)
+            response = self.http_501_handler(request)
         return response
 
-    def HTTP_501_handler(self, request):
+    def http_501_handler(self, request):
         response_line = self.response_line(status_code=501)
         response_headers = self.response_headers()
-        blank_line = '\r\n'
         response_body = '<h1>501 Not Implemented</h1>'
-        return self.send_response(response_line, response_headers, blank_line, response_body)
+        return self.send_response(response_line, response_headers, response_body)
 
-    def handle_GET(self, request):
-        if request.uri != '/':
-            track_name = request.uri.split('/')[1]
+    def handle_get(self, request):
+        if request.uri == '/':
             response_line = self.response_line(status_code=200)
             response_headers = self.response_headers()
-            blank_line = "\r\n"
-            requested_track ={}
+            with open('track.json', "r") as jsonFile:
+                data_json = json.load(jsonFile)
+            track_href = '<br>\n'.join(f'<a href = {i["slug_name"]}>{i["name"]}</a>' for i in data_json)
+            template = self.load_template('main_site.html')
+            main_site = template.format(track_href=track_href)
+            response_body = main_site
+            return self.send_response(response_line, response_headers, response_body)
+        else:
+            track_name = request.uri.split('/')[1]
+            response_headers = self.response_headers()
+            requested_track = {}
             with open('track.json', "r") as jsonFile:
                 for track in json.load(jsonFile):
                     if track['slug_name'].lower() == track_name.lower():
                         requested_track = track
                         break
                 else:
-                    response_body = self.load_templates('track_not_found.html')
+                    response_body = self.load_template('track_not_found.html')
+                    response_line = self.response_line(status_code=404)
 
             if 'data' in requested_track and requested_track['data'] != []:
+                response_line = self.response_line(status_code=200)
                 lines_string = self.lines_format(requested_track['data'])
-                template = self.load_templates('track_laptime.html')
+                template = self.load_template('track_laptime.html')
                 track_site = template.format(
                     track_name=requested_track['name'],
                     lines=lines_string
                 )
-
                 response_body = track_site
             elif 'name' in requested_track:
-                template = self.load_templates('empty_track.html')
+                response_line = self.response_line(status_code=200)
+                template = self.load_template('empty_track.html')
                 track_site = template.format(track_name=requested_track['name'])
                 response_body = track_site
-            return self.send_response(response_line, response_headers, blank_line, response_body)
-        else:
-            response_line = self.response_line(status_code=200)
-            response_headers = self.response_headers()
-            blank_line = "\r\n"
-            with open('track.json', "r") as jsonFile:
-                data_json = json.load(jsonFile)
-            track_href = '<br>\n'.join(f'<a href = {i["slug_name"]}>{i["name"]}</a>' for i in data_json)
-            template = self.load_templates('main_site.html')
-            main_site = template.format(track_href=track_href)
-            response_body = main_site
-            return self.send_response(response_line, response_headers, blank_line, response_body)
+            return self.send_response(response_line, response_headers, response_body)
 
-    def handle_POST(self, request):
+
+    def handle_post(self, request):
         add_dict = request.data
         track_name = request.uri.split('/')[1]
-        add_dict['added_time'] = datetime.now().__str__()[:-10]
+        add_dict['added_time'] = str(datetime.now())[:-10]
 
         if self.isfloat(add_dict['time']):
             requested_data = {}
@@ -196,9 +192,8 @@ class HTTPServer(TCPServer):
 
             response_line = self.response_line(status_code=200)
             response_headers = self.response_headers()
-            blank_line = "\r\n"
             lines_string = self.lines_format(requested_data)
-            template = self.load_templates('track_laptime.html')
+            template = self.load_template('track_laptime.html')
             track_site = template.format(
                 track_name=requested_name,
                 lines=lines_string
@@ -207,10 +202,9 @@ class HTTPServer(TCPServer):
         else:
             response_line = self.response_line(status_code=400)
             response_headers = self.response_headers()
-            blank_line = "\r\n"
-            template = self.load_templates('time_float.html')
+            template = self.load_template('time_float.html')
             response_body = template
-        return self.send_response(response_line, response_headers, blank_line, response_body)
+        return self.send_response(response_line, response_headers, response_body)
 
 
 if __name__ == '__main__':

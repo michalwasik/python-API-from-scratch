@@ -1,6 +1,24 @@
 <html>
+<head>
+<style>
+table, th, td {{
+  border: 1px solid black;
+  border-collapse: collapse;
+}}
+th, td {{
+  padding: 5px;
+  text-align: left;
+}}
+th.b {{
+  font-family: Arial, Helvetica, sans-serif;
+}}
+td.a {{
+  font-family: "Times New Roman", Times, serif;
+}}
+</style>
+</head>
 <body>
-<h1>{track_name}</h1><br>
+<h1>{track_name}</h1><br><br>
 <form target="_self" method="post">
   <label for="driver">Your name:</label><br>
   <input type="text" id="driver" name="driver"><br>
@@ -11,12 +29,11 @@
   <input type="submit" value="Submit">
 </form>
 <table style="width:100%">
-<table style="width:100%">
   <tr>
-    <th>Driver</th>
-    <th>Car</th>
-    <th>Lap Time</th>
-    <th>Added</th>
+    <th class="b">Driver</th>
+    <th class="b">Car</th>
+    <th class="b">Lap Time</th>
+    <th class="b">Added</th>
   </tr>
   {lines}
 </table>
