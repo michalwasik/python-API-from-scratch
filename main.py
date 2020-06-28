@@ -1,7 +1,5 @@
-import socket
-import os
-import mimetypes
 import json
+import socket
 from datetime import datetime
 
 
@@ -109,6 +107,15 @@ class HTTPServer(TCPServer):
                 f'</tr>'
             )
         return ''.join(lines)
+
+    @staticmethod
+    def isfloat(data):
+        try:
+            float(data)
+            return True
+        except ValueError:
+            return False
+
     def handle_request(self, request):
         request = HttpRequest(request)
         if request.metod == "GET":
@@ -126,10 +133,9 @@ class HTTPServer(TCPServer):
         response_body = '<h1>501 Not Implemented</h1>'
         return self.send_response(response_line, response_headers, blank_line, response_body)
 
-
     def handle_GET(self, request):
-        if str(request.uri) != '/':
-            track_name = str(request.uri.split('/')[1])
+        if request.uri != '/':
+            track_name = request.uri.split('/')[1]
             response_line = self.response_line(status_code=200)
             response_headers = self.response_headers()
             blank_line = "\r\n"
@@ -163,27 +169,17 @@ class HTTPServer(TCPServer):
             with open('track.json', "r") as jsonFile:
                 data_json = json.load(jsonFile)
             track_href = '<br>\n'.join(f'<a href = {i["slug_name"]}>{i["name"]}</a>' for i in data_json)
-            response_body = f"""
-            <html>
-                <body>
-                    <p>{track_href}</p>
-                </body>
-            </html>
-                            """
+            template = self.load_templates('main_site.html')
+            main_site = template.format(track_href=track_href)
+            response_body = main_site
             return self.send_response(response_line, response_headers, blank_line, response_body)
 
     def handle_POST(self, request):
         add_dict = request.data
         track_name = request.uri.split('/')[1]
-        add_dict['added_time'] = datetime.now().__str__()
+        add_dict['added_time'] = datetime.now().__str__()[:-10]
 
-        if (
-                isinstance(track_name, str) and
-                isinstance(add_dict['driver'], str) and
-                isinstance(add_dict['car'], str)
-                #isinstance(add_dict['time'], (float, int))
-            ):
-
+        if self.isfloat(add_dict['time']):
             requested_data = {}
             requested_name = ''
             with open("track.json", "r") as jsonFile:
@@ -207,17 +203,13 @@ class HTTPServer(TCPServer):
                 track_name=requested_name,
                 lines=lines_string
             )
-
             response_body = track_site
         else:
             response_line = self.response_line(status_code=400)
             response_headers = self.response_headers()
             blank_line = "\r\n"
-            response_body = """
-            <html>
-                <body>400 Bad Request</body>
-            </html>
-            """
+            template = self.load_templates('time_float.html')
+            response_body = template
         return self.send_response(response_line, response_headers, blank_line, response_body)
 
 

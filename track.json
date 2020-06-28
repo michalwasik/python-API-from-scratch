@@ -2,56 +2,7 @@
     {
         "name": "A1-Ring",
         "slug_name": "A1-Ring",
-        "data": [
-            {
-                "driver": "dsad",
-                "car": "dsad",
-                "time": "11",
-                "added_time": "2020-06-14 21:25:10.103983"
-            },
-            {
-                "driver": "tojka",
-                "car": "me",
-                "time": "+22",
-                "added_time": "2020-06-23 17:03:41.114273"
-            },
-            {
-                "driver": "dsa",
-                "car": "mka",
-                "time": "11",
-                "added_time": "2020-06-23 17:03:59.800348"
-            },
-            {
-                "driver": "dsa",
-                "car": "mka",
-                "time": "11",
-                "added_time": "2020-06-23 17:04:14.362008"
-            },
-            {
-                "driver": "dska",
-                "car": "daso",
-                "time": "+22",
-                "added_time": "2020-06-26 21:03:08.628656"
-            },
-            {
-                "driver": "michal",
-                "car": "tojka",
-                "time": "11",
-                "added_time": "2020-06-26 21:57:57.835215"
-            },
-            {
-                "driver": "filip",
-                "car": "merc",
-                "time": "22",
-                "added_time": "2020-06-26 21:59:44.472525"
-            },
-            {
-                "driver": "ala",
-                "car": "gowno",
-                "time": "11",
-                "added_time": "2020-06-26 22:00:12.755996"
-            }
-        ]
+        "data": []
     },
     {
         "name": "Abbazia",
@@ -81,14 +32,7 @@
     {
         "name": "Adria",
         "slug_name": "Adria",
-        "data": [
-            {
-                "driver": "ds",
-                "car": "d1",
-                "time": "22",
-                "added_time": "2020-06-26 22:00:34.230789"
-            }
-        ]
+        "data": []
     },
     {
         "name": "Ahvenisto",
