@@ -2,7 +2,26 @@
     {
         "name": "A1-Ring",
         "slug_name": "A1-Ring",
-        "data": []
+        "data": [
+            {
+                "driver": "Tom",
+                "car": "Ford+Mustang",
+                "time": "46.7",
+                "added_time": "2020-07-02 22:54"
+            },
+            {
+                "driver": "Claire",
+                "car": "Chevrolet+Camaro",
+                "time": "48.8",
+                "added_time": "2020-07-02 22:54"
+            },
+            {
+                "driver": "Jacob",
+                "car": "BMW+M3",
+                "time": "52.3",
+                "added_time": "2020-07-02 22:55"
+            }
+        ]
     },
     {
         "name": "Abbazia",

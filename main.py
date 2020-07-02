@@ -1,7 +1,7 @@
 import json
 import socket
 from datetime import datetime
-#zmainy do commita
+
 
 class TCPServer:
     def __init__(self, host='127.0.0.1', port=8887):
@@ -135,9 +135,14 @@ class HTTPServer(TCPServer):
             response_headers = self.response_headers()
             with open('track.json', "r") as jsonFile:
                 data_json = json.load(jsonFile)
-            track_href = '<br>\n'.join(f'<a href = {i["slug_name"]}>{i["name"]}</a>' for i in data_json)
+            third_len = len(data_json)//3
+            second_len = (len(data_json)-third_len)//2
+            first_len = len(data_json) - third_len - second_len
+            first_column = '<br>\n'.join(f'<a href = {data_json[i]["slug_name"]}>{data_json[i]["name"]}</a>' for i in range(first_len))
+            second_column = '<br>\n'.join(f'<a href = {data_json[i]["slug_name"]}>{data_json[i]["name"]}</a>' for i in range(first_len, second_len+first_len))
+            third_column = '<br>\n'.join(f'<a href = {data_json[i]["slug_name"]}>{data_json[i]["name"]}</a>' for i in range(second_len+first_len, third_len+first_len+second_len))
             template = self.load_template('main_site.html')
-            response_body = template.format(track_href=track_href)
+            response_body = template.format(first_column=first_column, second_column=second_column, third_column=third_column)
             return self.send_response(response_line, response_headers, response_body)
         else:
             track_name = request.uri.split('/')[1]
