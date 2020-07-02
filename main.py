@@ -1,10 +1,7 @@
 import json
 import socket
 from datetime import datetime
-
-import os
-print(os.listdir())
-print(os.path.abspath('.'))
+#zmainy do commita
 
 class TCPServer:
     def __init__(self, host='127.0.0.1', port=8887):
