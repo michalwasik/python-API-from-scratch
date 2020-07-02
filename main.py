@@ -2,6 +2,9 @@ import json
 import socket
 from datetime import datetime
 
+import os
+print(os.listdir())
+print(os.path.abspath('.'))
 
 class TCPServer:
     def __init__(self, host='127.0.0.1', port=8887):
@@ -137,8 +140,7 @@ class HTTPServer(TCPServer):
                 data_json = json.load(jsonFile)
             track_href = '<br>\n'.join(f'<a href = {i["slug_name"]}>{i["name"]}</a>' for i in data_json)
             template = self.load_template('main_site.html')
-            main_site = template.format(track_href=track_href)
-            response_body = main_site
+            response_body = template.format(track_href=track_href)
             return self.send_response(response_line, response_headers, response_body)
         else:
             track_name = request.uri.split('/')[1]
@@ -178,7 +180,7 @@ class HTTPServer(TCPServer):
         if self.isfloat(add_dict['time']):
             requested_data = {}
             requested_name = ''
-            with open("track.json", "r") as jsonFile:
+            with open('track.json', "r") as jsonFile:
                 data_json = json.load(jsonFile)
             for tracks in data_json:
                 if tracks['slug_name'] == track_name:
