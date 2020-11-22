@@ -9,6 +9,7 @@ tracks = []
 
 for el in soup.find_all("div", {"class": "az-item"}):
     tracks.append(el.get_text().strip())
+print(tracks)
 tracks_dict = []
 for i in tracks:
     if 'See More' not in i:
